@@ -1,0 +1,8 @@
+syntax = "proto2";
+option java_package = "com.lihao.protobuf";
+option java_outer_classname = "FirstProtobuf";
+message Person
+{
+  required int32 ID = 1;
+  required string Url = 2;
+}

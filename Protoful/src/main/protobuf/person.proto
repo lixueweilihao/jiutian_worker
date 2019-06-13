@@ -1,0 +1,16 @@
+//package tutorial;   //自定义的命名空间
+syntax = "proto2";
+option java_package = "com.lihao.protobuf"; //生成文件的包名
+option java_outer_classname = "PersonProtos"; //类名
+
+message Person { //待描述的结构化数据
+                 required string name = 1; //required表示这个字段不能为空
+                 required int32 id = 2; //数字“2”表示字段的数字别名
+                 optional string email = 3; //optional表示该字段可以为空
+
+                 message PhoneNumber { //内部message
+                                       required string number = 1;
+                                       optional int32 type = 2;
+                 }
+                 repeated PhoneNumber phone = 4;
+}
