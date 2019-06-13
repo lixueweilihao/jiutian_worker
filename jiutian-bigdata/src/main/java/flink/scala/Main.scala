@@ -1,5 +1,7 @@
 package flink.scala
 
+import org.apache.flink.streaming.api.scala._
+
 
 object Main {
   def main(args: Array[String]): Unit = {

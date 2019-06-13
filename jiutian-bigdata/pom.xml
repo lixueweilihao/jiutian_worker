@@ -228,6 +228,17 @@
             <artifactId>flume-kafka-source</artifactId>
             <version>1.6.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.storm</groupId>
+            <artifactId>storm-core</artifactId>
+            <version>0.9.7</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.storm</groupId>
+            <artifactId>storm-kafka</artifactId>
+            <version>0.9.7</version>
+        </dependency>
     </dependencies>
 
 </project>

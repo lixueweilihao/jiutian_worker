@@ -1,5 +1,7 @@
 package flink.scala
 
+import org.apache.flink.api.scala._
+
 object WordCountJob {
   def main(args: Array[String]) {
     // 1.设置运行环境

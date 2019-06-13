@@ -6,20 +6,13 @@
     <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Kafka-Test</module>
-        <module>HttpClient</module>
         <module>Protoful</module>
-        <module>Spark</module>
-<!--        <module>image</module>-->
-        <module>flink</module>
-<!--        <module>Hive</module>-->
-        <module>HDFS_TEST</module>
-        <module>Elasticsearch</module>
         <module>jiutian-bigdata</module>
         <module>jiutian-leetcode</module>
         <module>jiutian-ai</module>
-        <module>jiutain-others</module>
+        <module>jiutian-others</module>
         <module>jiutian-scala</module>
+        <module>jiutian-maven1</module>
     </modules>
     <properties>
         <kafka.version>0.8.2.2</kafka.version>

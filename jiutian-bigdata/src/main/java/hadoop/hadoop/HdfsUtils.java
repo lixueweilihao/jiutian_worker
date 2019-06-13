@@ -3,7 +3,10 @@ package hadoop.hadoop;
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.IOUtils;
-
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.*;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.util.Progressable;
 import java.io.*;
 import java.net.URI;
 import java.util.ArrayList;
