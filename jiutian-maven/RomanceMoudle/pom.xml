@@ -3,32 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>AssemblyPackage</artifactId>
-        <groupId>com.lcc</groupId>
-        <!--所有的都必须统一，如果为写死的数字，那么都要为数字，否则都要是变量形式，不然会报错-->
-        <version>${AssemblyPackage.version}</version>
+        <artifactId>jiutian-maven1</artifactId>
+        <groupId>Lihao_Test</groupId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>RomanceMoudle</artifactId>
 
-
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
-                <configuration>
-                    <encoding>utf-8</encoding>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-
-
-        </plugins>
-    </build>
 
 </project>
