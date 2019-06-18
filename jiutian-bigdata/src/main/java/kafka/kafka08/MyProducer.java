@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -17,10 +18,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class MyProducer implements Runnable {
 
-    private static final String TOPIC = "dataflow_pressure_test"; //kafka创建的topic
+    private static final String TOPIC = "connect-test"; //kafka创建的topic
 //    private static final String TOPIC = "nsfsale_create_order"; //kafka创建的topic
 //    private static String TOPIC ; //kafka创建的topic
-        private final String BROKER_LIST = "kafkasit02broker01..com:9092,kafkasit02broker02..com:9092,kafkasit02broker03..com:9092";
+        private final String BROKER_LIST = "10.3.6.7:9092,10.3.6.12:9092,10.3.6.16:9092";
 //    private final String BROKER_LIST ="A:2181,B:2181,V:2181";
         //    private static String BROKER_LIST;
     private final String SERIALIZER_CLASS = "kafka.serializer.StringEncoder"; // 序列化类
@@ -91,21 +92,20 @@ public class MyProducer implements Runnable {
     }
 
     public void publishMessageOfOne(String topic, long count) {
+
 //        String CONTENT = "{\"account_number\":\"000\",\"balance\":26210,\"firstname\":\"Teri\",\"lastname\":\"Hester\",\"age\":39,\"gender\":\"M\",\"address\":\"653 Abbey Court\",\"employer\":\"Electonic\",\"email\":\"terihester@electonic.com\",\"city\":\"Martell\",\"state\":\"LIHAO\"}";
         System.out.println("agasdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-
         for (int i = 0; i < count; i++)
             try {
-//                String CONTENT ="{\"name\":\"lihaolixuewei"+i+"\",\"sex\":\"female\",\"age\":20}";
-//                String CONTENT ="name";
-                String CONTENT ="{\"name\":\"es-lihao"+i+"\",\"sex\":\"female\",\"age\":20}";
-//                String CONTENT ="NJXZ 10.27.116.155 192.168.65.253 10.49.44.169 2019-02-01T10:01:41+08:00 POST /center/open/sendMessage.do?isrvCode=isrv191 isrvCode=isrv191 80 HTTP/1.1 200 381 4.077 - Apache-HttpClient/4.2.6 (java 1.5) nimsit..com 10.27.116.155 10.37.104.180:80 4.077 - 1548986501.513 - - - - - - - 603 - - - - WAF2.3";
-                System.out.println("bbbbbbbbbbbbbbbbbbbbbbbbbbb");
+                Date date = new Date();
+                SimpleDateFormat myFmt1 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'+0800'");
+                String CONTENT =myFmt1.format(date)+"$$cron$$notice$$dtc-test$$ dtcfinished 0anacron";
                 ProducerRecord<String, String> msg = new ProducerRecord(topic, CONTENT);
                 System.out.println("cccccccccccccccccccccccccccccccccccccc");
                 producer.send(msg);
                 System.out.println("msg = " + getValue() + " : " + msg.value());
                 increase();
+                Thread.sleep(10000);
             } catch (Exception e) {
                 logger.info(e.getMessage());
             }
@@ -114,8 +114,8 @@ public class MyProducer implements Runnable {
 
     public void run() {
         try {
-//            publishMessageOfOne(TOPIC, number);
-                publishMessage(TOPIC, number);
+            publishMessageOfOne(TOPIC, number);
+//                publishMessage(TOPIC, number);
         } catch (Exception e) {
             e.printStackTrace();
         }

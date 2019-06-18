@@ -8,6 +8,8 @@ package kafka.simple.Consumer.one;
  * @since 2019/2/26  12:03
  */
 
+import kafka.api.FetchRequestBuilder;
+import kafka.api.PartitionOffsetRequestInfo;
 import kafka.cluster.Broker;
 import kafka.common.ErrorMapping;
 import kafka.common.OffsetAndMetadata;

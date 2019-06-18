@@ -25,7 +25,7 @@ import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.lh.elasticsearch.UtilsEs.getEsClient;
+import static elasticsearch.UtilsEs.getEsClient;
 
 
 /**
