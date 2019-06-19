@@ -1,5 +1,6 @@
 package flink.scala.opentsdb.client.builder
 
+import java.io.IOException
 import java.util
 import java.util.{Collections, Map}
 
@@ -18,13 +19,13 @@ import scala.collection.mutable
   */
 class Metric {
   @SerializedName("metric")
-  private var name:String = null
+  private var name: String = null
 
   private var timestamp = 0L
 
-  private var value:Any = null
+  private var value: Any = null
 
-   var tags = new mutable.HashMap[String, String]
+  var tags = new mutable.HashMap[String, String]
 
   def this(name: String) {
     this()
@@ -116,24 +117,23 @@ class Metric {
 
   def getValue: Any = value
 
-  @throws[DataFormatException]
   def stringValue: String = value.toString
 
-  @throws[DataFormatException]
-  def longValue: Long = try
-    value.asInstanceOf[Number].longValue
-  catch {
-    case e: Exception =>
-      throw new DataFormatException("Value is not a long")
-  }
+  def longValue: Long = value.asInstanceOf[Number].longValue
 
-  @throws[DataFormatException]
-  def doubleValue: Double = try
-    value.asInstanceOf[Number].doubleValue
-  catch {
-    case e: Exception =>
-      throw new DataFormatException("Value is not a double")
-  }
+  //  catch {
+  //    case e: Exception =>
+  //      throw new IOException("Value is not a double")
+  ////      throw new DataFormatException("Value is not a long")
+  //  }
+
+  def doubleValue: Double = value.asInstanceOf[Number].doubleValue
+
+  //  catch {
+  //    case e: Exception =>
+  //      throw new IOException("Value is not a double")
+  ////      throw new DataFormatException("Value is not a double")
+  //  }
 
   def isDoubleValue: Boolean = !((value.asInstanceOf[Number]).doubleValue == Math.floor((value.asInstanceOf[Number]).doubleValue))
 
@@ -151,6 +151,6 @@ class Metric {
     *
     * @return tag for the data point
     */
-  def getTags: util.Map[String, String] = Collections.unmodifiableMap(tags)
+  def getTags = tags
 
 }

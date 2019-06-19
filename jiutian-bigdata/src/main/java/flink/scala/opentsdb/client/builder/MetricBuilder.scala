@@ -5,7 +5,7 @@ import java.util
 import java.util.{ArrayList, List}
 
 import com.google.common.base.Preconditions.checkState
-import com.google.gson.Gson
+import com.google.gson.{Gson, GsonBuilder}
 
 /**
   * Created on 2019-06-18
@@ -17,12 +17,13 @@ class MetricBuilder {
   private var mapper: Gson = null
 
 
-  /**
-    * Returns a new metric builder.
-    *
-    * @return metric builder
-    */
-  def getInstance = new MetricBuilder
+  def MetricBuilder: Unit ={
+    val builder = new GsonBuilder
+    mapper = builder.create
+  }
+  def getInstance:MetricBuilder={
+    return new MetricBuilder
+  }
 
   /**
     * Adds a metric to the builder.
@@ -56,9 +57,15 @@ class MetricBuilder {
   def build: String = {
     import scala.collection.JavaConversions._
     for (metric <- metrics) { // verify that there is at least one tag for each metric
-      checkState(metric.getTags.size > 0, metric.getName + " must contain at least one tag.")
+//      checkState(metric.getTags.size > 0, metric.getName + " must contain at least one tag.")
     }
     mapper.toJson(metrics)
   }
 
 }
+//object MetricBuilder{
+//  def getInstance:MetricBuilder={
+//    return new MetricBuilder
+//  }
+//
+//}

@@ -1,9 +1,7 @@
 package flink.scala.opentsdb.client.response
 
-import java.util
-import java.util.{Collections, HashMap, List, Map}
+import scala.collection.mutable
 
-import flink.java.opentsdb.client.response.ErrorDetail
 
 /**
   * Created on 2019-06-18
@@ -11,35 +9,31 @@ import flink.java.opentsdb.client.response.ErrorDetail
   * @author :hao.li
   */
 class ErrorDetail {
-  private var errors:util.List[ErrorDetail.ErrorDetailEntity] = null
+  private var errors:List[ErrorDetailEntity] = null
 
   private var success:Integer = null
   private var failed:Integer = null
 
-  def this(errors: util.List[ErrorDetail.ErrorDetailEntity]) {
-    this()
-    this.errors = errors
-  }
+//  def this(errors: List[ErrorDetailEntity]) {
+//    this()
+//    this.errors = errors
+//  }
+//
+//  def this(success: Integer, failed: Integer) {
+//    this()
+//    this.success = success
+//    this.failed = failed
+//  }
+//
+//  def this(success: Integer, failed: Integer, errors: List[ErrorDetailEntity]) {
+//    this()
+//    this.success = success
+//    this.failed = failed
+//    this.errors = errors
+//  }
 
-  def this(success: Integer, failed: Integer) {
-    this()
-    this.success = success
-    this.failed = failed
-  }
 
-  def this(success: Integer, failed: Integer, errors: util.List[ErrorDetail.ErrorDetailEntity]) {
-    this()
-    this.success = success
-    this.failed = failed
-    this.errors = errors
-  }
-
-  def this(error: ErrorDetail.ErrorDetailEntity) {
-    this()
-    errors = Collections.singletonList(error)
-  }
-
-  def getErrors: util.List[ErrorDetail.ErrorDetailEntity] = errors
+  def getErrors: List[ErrorDetailEntity] = errors
 
   def getSuccess: Integer = success
 
@@ -54,12 +48,12 @@ class ErrorDetail {
   }
 
   class ErrorDetailEntity {
-    private var datapoint:ErrorDetail.DataPoint = null
+    private var datapoint:DataPoint = null
     private var error:String = null
 
-    def getDatapoint: ErrorDetail.DataPoint = datapoint
+    def getDatapoint: DataPoint = datapoint
 
-    def setDatapoint(datapoint: ErrorDetail.DataPoint): Unit = {
+    def setDatapoint(datapoint: DataPoint): Unit = {
       this.datapoint = datapoint
     }
 
@@ -76,7 +70,7 @@ class ErrorDetail {
     private var metric:String = null
     private var timestamp:Long = 0L
     private var value:Any = null
-    private var tags:util.Map[String, String] = new util.HashMap[String, String]
+    private var tags:mutable.HashMap[String, String] = new mutable.HashMap[String, String]
 
     def getMetric: String = metric
 
@@ -96,9 +90,9 @@ class ErrorDetail {
       this.value = value
     }
 
-    def getTags: util.Map[String, String] = tags
+    def getTags: mutable.HashMap[String, String] = tags
 
-    def setTags(tags: util.Map[String, String]): Unit = {
+    def setTags(tags:mutable.HashMap[String, String]): Unit = {
       this.tags = tags
     }
   }

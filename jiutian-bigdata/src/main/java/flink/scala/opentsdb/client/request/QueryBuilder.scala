@@ -20,8 +20,8 @@ class QueryBuilder {
 
   @throws[IOException]
   def build: String = { // verify that there is at least one tag for each metric
-    checkState(query.getStart > 0, " must contain start.")
-    checkState(query.getQueries != null, " must contain at least one subQuery.")
+//    checkState(query.getStart > 0, " must contain start.")
+//    checkState(query.getQueries != null, " must contain at least one subQuery.")
     mapper.toJson(query)
   }
 

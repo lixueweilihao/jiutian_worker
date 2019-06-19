@@ -2,10 +2,11 @@ package flink.scala.opentsdb.client
 
 import java.io.IOException
 
-import flink.java.opentsdb.client.ExpectResponse
-import flink.java.opentsdb.client.builder.MetricBuilder
-import flink.java.opentsdb.client.request.QueryBuilder
-import flink.java.opentsdb.client.response.{Response, SimpleHttpResponse}
+import flink.scala.opentsdb.client.ExpectResponse.ExpectResponse
+import flink.scala.opentsdb.client.builder.MetricBuilder
+import flink.scala.opentsdb.client.request.QueryBuilder
+import flink.scala.opentsdb.client.response.{Response, SimpleHttpResponse}
+
 
 /**
   * Created on 2019-06-17

@@ -145,7 +145,7 @@ class PoolingHttpClient {
 
 class IdleConnectionMonitorThread extends Thread {
   var connMgr: HttpClientConnectionManager = null
-  private var stop = false
+  private var lihao = false
 
   def this(connMgr: HttpClientConnectionManager) {
     this()
@@ -154,7 +154,7 @@ class IdleConnectionMonitorThread extends Thread {
 
   override def run(): Unit = {
     try
-        while (stop == false) {
+        while (lihao == false) {
           this synchronized wait(5000)
           connMgr.closeExpiredConnections()
           connMgr.closeIdleConnections(60, TimeUnit.SECONDS)
@@ -168,7 +168,7 @@ class IdleConnectionMonitorThread extends Thread {
   }
 
   def shutdown(): Unit = {
-    stop = true
+    lihao = true
     this.synchronized {
       notifyAll()
     }

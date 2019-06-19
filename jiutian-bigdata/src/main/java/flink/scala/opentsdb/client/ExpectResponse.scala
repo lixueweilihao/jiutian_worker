@@ -5,10 +5,10 @@ package flink.scala.opentsdb.client
   *
   * @author :hao.li
   */
-object ExpectResponse {
-  object ExpectResponse extends Enumeration{
-    type ExpectResponse =Value
-    val STATUS_CODE, SUMMARY, DETAIL =Value
-  }
 
+object ExpectResponse extends Enumeration {
+  type ExpectResponse = Value
+  val STATUS_CODE, SUMMARY, DETAIL = Value
 }
+
+

@@ -10,7 +10,7 @@ class SimpleHttpResponse {
   private var content = ""
 
   def isSuccess: Boolean = {
-    return statusCode == 2 || statusCode == 204
+    return statusCode == 200 || statusCode == 204
   }
 
   def getStatusCode = statusCode
