@@ -1,4 +1,5 @@
-package flink.java; /**
+package flink.java;
+/**
  * Copyright @ 2018
  * All right reserved.
  *
@@ -49,7 +50,7 @@ public class KafkaProducer {
                         return tuple.toString();
                     }
                 })
-                .addSink(new FlinkKafkaProducer09<>("kafkasit02broker01.cnsuning.com:9092,kafkasit02broker02.cnsuning.com:9092,kafkasit02broker03.cnsuning.com:9092", "dataflow_pressure_test", new SimpleStringSchema()));
+                .addSink(new FlinkKafkaProducer09<>("10.3.6.7:9092,10.3.6.12:9092,10.3.6.16:9092", "dataflow_pressure_test", new SimpleStringSchema()));
         see.execute();
     }
 }

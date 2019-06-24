@@ -1,7 +1,6 @@
 package kafka.kafka_test;//package kafka.test.kafka_test;
 //
-//import com.suning.kafka.client.consumer.SnKafka10Consumer;
-//import com.suning.kafka.client.producer.SnKafka10Producer;
+
 //
 //import java.util.Properties;
 //

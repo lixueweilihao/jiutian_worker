@@ -1,7 +1,5 @@
 package kafka.kafka_test;//package kafka.test.kafka_test;
-//import com.suning.kafka.client.consumer.KafkaMessageListener;
-//import com.suning.kafka.client.consumer.MessageRecord;
-//import com.suning.kafka.client.consumer.SnKafkaConsumer;
+
 //
 ///**
 // * Copyright @ 2018 lihao.com

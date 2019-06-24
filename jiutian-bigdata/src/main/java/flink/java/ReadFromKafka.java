@@ -27,13 +27,13 @@ public class ReadFromKafka {
 // create execution environment
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         Map properties= new HashMap();
-        properties.put("bootstrap.servers", "kafkasit02broker01.cnsuning.com:9092,kafkasit02broker02.cnsuning.com:9092,kafkasit02broker03.cnsuning.com:9092");
+        properties.put("bootstrap.servers", "10.3.6.7:9092,10.3.6.12:9092,10.3.6.16:9092");
         properties.put("group.id", "bigdata_dataflow_pressure_test");
 //        properties.put("enable.auto.commit", "true");
 //        properties.put("auto.commit.interval.ms", "1000");
 //        properties.put("auto.offset.reset", "earliest");
 //        properties.put("session.timeout.ms", "30000");
-        properties.put("zookeeper.connect","kafkasit02zk01.cnsuning.com:2181,kafkasit02zk02.cnsuning.com:2181,kafkasit02zk03.cnsuning.com:2181");
+        properties.put("zookeeper.connect","10.3.6.7:9092,10.3.6.12:9092,10.3.6.16:9092");
 //        properties.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 //        properties.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         properties.put("topic", "dataflow_pressure_test");

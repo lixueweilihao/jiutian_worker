@@ -1,6 +1,6 @@
 package kafka.kafka_test;//package kafka.test.kafka_test;
 //
-//import com.suning.kafka.client.consumer.*;
+
 //import org.apache.kafka.clients.consumer.ConsumerRecords;
 //import org.apache.kafka.clients.consumer.ConsumerRecord;
 //

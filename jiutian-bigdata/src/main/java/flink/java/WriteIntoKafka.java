@@ -27,7 +27,7 @@ public class WriteIntoKafka {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         Map properties = new HashMap();
-        properties.put("bootstrap.servers", "kafkasit02broker01.cnsuning.com:9092,kafkasit02broker02.cnsuning.com:9092,kafkasit02broker03.cnsuning.com:9092");
+        properties.put("bootstrap.servers", "10.3.6.7:9092,10.3.6.12:9092,10.3.6.16:9092");
         properties.put("topic", "dataflow_pressure_test");
         // parse user parameters
         ParameterTool parameterTool = ParameterTool.fromMap(properties);

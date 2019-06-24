@@ -30,7 +30,7 @@ package kafka.kafka10;//package kafka.test.kafka10;
 //        props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
 //        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
 //        props.put("consumer.id","lihao");
-//        props.put(ConsumerConfig.CLIENT_ID_CONFIG,"suning");
+//        props.put(ConsumerConfig.CLIENT_ID_CONFIG,"lihao");
 //        KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
 //        consumer.subscribe(Arrays.asList(TOPIC));
 //
