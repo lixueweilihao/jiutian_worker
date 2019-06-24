@@ -1,6 +1,6 @@
 package com.play.image.old.test;
 
-import old.rewrite.ImgUtils_rewrite;
+import com.play.image.old.rewrite.ImgUtils_rewrite;
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 

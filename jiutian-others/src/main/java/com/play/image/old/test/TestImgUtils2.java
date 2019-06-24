@@ -1,6 +1,6 @@
 package com.play.image.old.test;
 
-import old.reconsitution.ImgUtils2;
+import com.play.image.old.reconsitution.ImgUtils2;
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 

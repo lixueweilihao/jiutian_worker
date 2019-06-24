@@ -1,7 +1,7 @@
 package com.play.gongchang.factory;
 
-import com.DesignPattern.gongchang.dao.IUserDao;
-import com.DesignPattern.gongchang.dao.MySQLUserDao;
+import com.play.gongchang.dao.IUserDao;
+import com.play.gongchang.dao.MySQLUserDao;
 
 /**
  * Copyright @ 2018

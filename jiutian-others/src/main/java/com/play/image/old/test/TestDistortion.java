@@ -1,6 +1,6 @@
 package com.play.image.old.test;
 
-import old.utils.HandleImgUtils;
+import com.play.image.old.utils.HandleImgUtils;
 import org.opencv.core.*;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.utils.Converters;

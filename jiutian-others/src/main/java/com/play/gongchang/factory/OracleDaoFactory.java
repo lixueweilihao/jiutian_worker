@@ -1,7 +1,7 @@
 package com.play.gongchang.factory;
 
-import com.DesignPattern.gongchang.dao.IUserDao;
-import com.DesignPattern.gongchang.dao.OracleUserDao;
+import com.play.gongchang.dao.IUserDao;
+import com.play.gongchang.dao.OracleUserDao;
 
 /**
  * Copyright @ 2018

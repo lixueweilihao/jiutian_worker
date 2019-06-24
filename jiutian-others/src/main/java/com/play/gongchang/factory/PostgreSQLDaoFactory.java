@@ -1,7 +1,7 @@
 package com.play.gongchang.factory;
 
-import com.DesignPattern.gongchang.dao.IUserDao;
-import com.DesignPattern.gongchang.dao.PostgreSQLUserDao;
+import com.play.gongchang.dao.IUserDao;
+import com.play.gongchang.dao.PostgreSQLUserDao;
 
 /**
  * Copyright @ 2018
