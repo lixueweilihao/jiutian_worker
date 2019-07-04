@@ -11,10 +11,9 @@ import java.io.IOException;
  */
 public class HbaseMain {
     public static void main(String[] args) throws IOException {
-        HbaseMain hm = new HbaseMain();
         HbaseUtils hu = new HbaseUtils();
         hu.init();
-        hu.insert();
+        hu.listTables();
     }
 }
 

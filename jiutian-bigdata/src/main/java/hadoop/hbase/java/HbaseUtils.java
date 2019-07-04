@@ -25,15 +25,15 @@ import java.util.List;
 public class HbaseUtils {
     public static Configuration configuration;
     public static Connection connection;
-    public static Admin admin;
+    public static HBaseAdmin admin;
     public void init() throws IOException {
-        User user = User.create(UserGroupInformation.createRemoteUser("dataflow"));
+        User user = User.create(UserGroupInformation.createRemoteUser("hadoop"));
         configuration = HBaseConfiguration.create();
-        configuration.set("hbase.zookeeper.property.clientPort", "2015");
-        configuration.set("hbase.zookeeper.quorum", "namenode1-sit..com,namenode2-sit..com,slave01-sit..com");
+        configuration.set("hbase.zookeeper.property.clientPort", "2181");
+        configuration.set("hbase.zookeeper.quorum", "10.3.6.7,10.3.6.12,10.3.6.16");
         try {
             connection = ConnectionFactory.createConnection(configuration,user);
-            admin = connection.getAdmin();
+            admin = new HBaseAdmin(configuration);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -67,7 +67,7 @@ public class HbaseUtils {
     {
         System.out.println("[hbaseoperation] LoginServer insert...");
 
-        Table table = connection.getTable(TableName.valueOf("ns_dataflow:dataflow_es_error"));
+        Table table = connection.getTable(TableName.valueOf("test"));
         List<Put> putList = new ArrayList<Put>();
 
         Put put1;
@@ -233,4 +233,5 @@ public class HbaseUtils {
         }
         close();
     }
+
 }
