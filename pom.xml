@@ -13,6 +13,7 @@
         <module>jiutian-others</module>
         <module>jiutian-scala</module>
         <module>jiutian-maven</module>
+        <module>leetcode</module>
     </modules>
     <properties>
         <kafka.version>0.8.2.2</kafka.version>

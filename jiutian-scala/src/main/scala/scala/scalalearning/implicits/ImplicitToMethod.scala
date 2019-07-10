@@ -16,7 +16,7 @@ object ImplicitToMethod {
 
   implicit def typeConversion(input: Boolean): String = if (input) "true" else "false"
 
-  def plus(x: Int, y: String): Int = x + y
+  def plus(x: Int, y: Int): Int = x + y
 
   def display(input: String): Unit = println(input)
 
@@ -27,9 +27,8 @@ object ImplicitToMethod {
     ImplicitToMethod.display(12)
     ImplicitToMethod.display(true)
 
-    import ImplicitToMethod.stringToInt
     //编译时调用了隐式转换
-    val result = ImplicitToMethod.plus("3", 2)
+    val result = ImplicitToMethod.plus("3", "2")
     println(result)
 
   }
