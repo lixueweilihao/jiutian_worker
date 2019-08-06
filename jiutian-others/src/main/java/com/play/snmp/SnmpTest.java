@@ -24,10 +24,10 @@ public class SnmpTest {
     }
 
     public void testGet() {
-        String ip = "10.3.6.21/161";
+        String ip = "10.3.0.56/161";
         String community = "public";
-//        String oidval = ".1.3.6.1.4.1.2021.4.5.0";
-        String oidval = ".1.3.6.1.2.1.1.5.0";
+        String oidval = ".1.3.6.1.2.1.2.1.0";
+//        String oidval = ".1.3.6.1.2.1.1.5.0";
         SnmpData.snmpGet(ip, community, oidval);
     }
 
