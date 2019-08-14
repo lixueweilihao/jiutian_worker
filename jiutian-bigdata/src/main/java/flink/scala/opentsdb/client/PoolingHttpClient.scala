@@ -63,8 +63,7 @@ class PoolingHttpClient {
     }
   }
 
-  def PoolingHttpClient() {
-    connManager setMaxTotal maxTotalConnections
+    connManager.setMaxTotal(maxTotalConnections)
     // Increase default max connection per route
     connManager.setDefaultMaxPerRoute(maxConnectionsPerRoute)
 
@@ -77,7 +76,7 @@ class PoolingHttpClient {
     val staleMonitor = new IdleConnectionMonitorThread(connManager)
     staleMonitor.start()
 
-  }
+
 
   @throws[IOException]
   def doPost(url: String, data: String): SimpleHttpResponse = {
@@ -99,9 +98,11 @@ class PoolingHttpClient {
   }
 
   private def getResponseCharset(ctype: String) = {
+    import util.control.Breaks._
     var charset = DEFAULT_CHARSET
     if (!StringUtils.isEmpty(ctype)) {
       val params = ctype.split(";")
+      breakable {
       for (param <- params) {
         var param_copy = param.trim
         if (param_copy.startsWith("charset")) {
@@ -111,6 +112,7 @@ class PoolingHttpClient {
               charset = pair(1).trim
           break() //todo: break is not supported
         }
+      }
       }
     }
     charset
@@ -123,14 +125,17 @@ class PoolingHttpClient {
       retries += 1
       retries
     }
-    while (true) {
-      tries -= 1
-      try {
-        response = httpClient.execute(request)
-        break //todo: break is not supported
-      } catch {
-        case e: IOException =>
-          if (tries < 1) throw e
+    import util.control.Breaks._
+    breakable {
+      while (true) {
+        tries -= 1
+        try {
+          response = httpClient.execute(request)
+          break()
+        } catch {
+          case e: IOException =>
+            if (tries < 1) throw e
+        }
       }
     }
     response

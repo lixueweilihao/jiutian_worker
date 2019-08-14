@@ -37,15 +37,19 @@ class HttpClientImpl extends HttpClient {
 
   private def buildUrl(serviceUrl: String, postApiEndPoint: String, expectResponse: ExpectResponse) = {
     var url = serviceUrl + postApiEndPoint
-    expectResponse match {
-      case ExpectResponse.SUMMARY =>
-        url += "?summary"
-        break() //todo: break is not supported
-      case ExpectResponse.DETAIL =>
-        url += "?details"
-        break //todo: break is not supported
-      case _ =>
-        break //todo: break is not supported
+    import util.control.Breaks._
+    breakable {
+      expectResponse match {
+        case ExpectResponse.SUMMARY =>
+          url += "?summary"
+          break() //todo: break is not supported
+
+        case ExpectResponse.DETAIL =>
+          url += "?details"
+          break() //todo: break is not supported
+        case _ =>
+          break() //todo: break is not supported
+      }
     }
     url
   }
@@ -81,7 +85,7 @@ class HttpClientImpl extends HttpClient {
 
   override def pushQueries(builder: client.request.QueryBuilder): client.response.SimpleHttpResponse = ???
 
- def pushMetrics(builder: client.builder.MetricBuilder, exceptResponse: ExpectResponse): client.response.Response = {
+  def pushMetrics(builder: client.builder.MetricBuilder, exceptResponse: ExpectResponse): client.response.Response = {
     checkNotNull(builder)
     // TODO 错误处理，比如IOException或者failed>0，写到队列或者文件后续重试。
     val response: SimpleHttpResponse = httpClient.doPost(buildUrl(serviceUrl, PUT_POST_API, exceptResponse), builder.build)

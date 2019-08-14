@@ -17,11 +17,10 @@ class MetricBuilder {
   private var mapper: Gson = null
 
 
-  def MetricBuilder: Unit ={
-    val builder = new GsonBuilder
-    mapper = builder.create
-  }
-  def getInstance:MetricBuilder={
+  val builder = new GsonBuilder
+  mapper = builder.create
+
+  def getInstance: MetricBuilder = {
     return new MetricBuilder
   }
 
@@ -55,14 +54,21 @@ class MetricBuilder {
     */
   @throws[IOException]
   def build: String = {
+//    var abc:String=""
     import scala.collection.JavaConversions._
-    for (metric <- metrics) { // verify that there is at least one tag for each metric
-//      checkState(metric.getTags.size > 0, metric.getName + " must contain at least one tag.")
+    for (metric <- metrics) {
+//      abc+="[{"+"metric"+":"+metric.getName+","+"timestamp"+":"+metric.getTimestamp+","+"value"+":"+metric.getValue
+      // verify that there is at least one tag for each metric
+      //      checkState(metric.getTags.size > 0, metric.getName + " must contain at least one tag.")
     }
-    mapper.toJson(metrics)
+//    val abc  = "[{\"metric\":\"metric6\",\"timestamp\":1565786811415,\"value\":300,\"tags\":{\"tag1\":\"tab1value\",\"tag2\":\"tab2value\"}}]"
+
+    val abc = mapper.toJson(metrics)
+    abc
   }
 
 }
+
 //object MetricBuilder{
 //  def getInstance:MetricBuilder={
 //    return new MetricBuilder

@@ -25,7 +25,8 @@ class Metric {
 
   private var value: Any = null
 
-  var tags = new mutable.HashMap[String, String]
+//  var tags = new mutable.HashMap[String, String]
+  var tags:java.util.Map[String,String] = new java.util.HashMap[String, String]
 
   def this(name: String) {
     this()
