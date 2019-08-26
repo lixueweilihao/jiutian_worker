@@ -44,11 +44,11 @@ class Master extends Actor{
     case CheckTimeOutWorker=>{
       val current = System.currentTimeMillis()
       val deadworkers: mutable.HashSet[WorkerInfo] = workers.filter(w => current - w.lastHeartbeatinfo  > CHECK_INTERVAL)
-      //遍历出每个死掉的worker然后从集合中移除
-      //      for(workinfo <- deadworkers) {
-      //        id2Worker -= workinfo.id
-      //        workers -= workinfo
-      //      }
+//      遍历出每个死掉的worker然后从集合中移除
+//            for(workinfo <- deadworkers) {
+//              id2Worker -= workinfo.id
+//              workers -= workinfo
+//            }
       deadworkers.foreach(workinfo => {
         id2Worker -= workinfo.id
         println(workinfo.id+"lala")
@@ -58,6 +58,7 @@ class Master extends Actor{
     }
     //worker发送给master的注册消息
     case RegisterWorker(workerid,memory,cores) => {
+      println("the worker {} come register.",workerid)
       //将Worker的信息封装起来然后保存
       val wi: WorkerInfo = new WorkerInfo(workerid,memory,cores)
       //保存到集合
@@ -71,6 +72,7 @@ class Master extends Actor{
     }
     //worker发送给master的心跳消息
     case Heartbeat(wordid) => {
+      println(wordid+"send to heart")
       //根据id到id2worker这个map中查找对应的workerinfo
       val workerinfo: WorkerInfo = id2Worker(wordid)
       //更新时间
@@ -83,8 +85,8 @@ object Master{
   val MASTER_ACTOR_SYSTEM_NAME = "MasterSystem"
   val MASTER_ACTOR_NAME = "Master"
   def main(args: Array[String]): Unit = {
-    val host = args(0)
-    val port = args(1).toInt
+    val host = "localhost"
+    val port = 8888
     val configStr =
       s"""
          |akka.actor.provider = "akka.remote.RemoteActorRefProvider"

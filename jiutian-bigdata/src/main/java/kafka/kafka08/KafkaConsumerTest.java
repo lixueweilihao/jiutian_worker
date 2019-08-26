@@ -21,9 +21,9 @@ public class KafkaConsumerTest {
     public static void main(String[] args) {
         // specify some consumer properties
         Properties props = new Properties();
-        props.put("zookeeper.connect", "");
+        props.put("zookeeper.connect", "10.3.0.20:2181");
         //group 代表一个消费组
-        props.put("group.id", "pj_just_test_group_01");
+        props.put("group.id", "bigdata-metrics");
         //zk连接超时
         props.put("zookeeper.session.timeout.ms", "60000");
         props.put("zookeeper.sync.time.ms", "2000");
@@ -41,7 +41,7 @@ public class KafkaConsumerTest {
         StringDecoder valueDecoder = new StringDecoder(new VerifiableProperties());
 
         HashMap<String, Integer> map = new HashMap<String, Integer>();
-        map.put("fxx_testsq_1", 1);
+        map.put("metrics", 1);
         Map<String, List<KafkaStream<String, String>>> topicMessageStreams = consumerConnector.createMessageStreams(map, keyDecoder, valueDecoder);
 
         ExecutorService executor = Executors.newFixedThreadPool(4);

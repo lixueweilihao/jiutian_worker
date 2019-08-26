@@ -8,10 +8,10 @@
     <modules>
         <module>Protoful</module>
         <module>jiutian-bigdata</module>
-        <module>jiutian-leetcode</module>
+<!--        <module>jiutian-leetcode</module>-->
         <module>jiutian-ai</module>
         <module>jiutian-others</module>
-        <module>jiutian-scala</module>
+<!--        <module>jiutian-scala</module>-->
         <module>jiutian-maven</module>
         <module>leetcode</module>
     </modules>

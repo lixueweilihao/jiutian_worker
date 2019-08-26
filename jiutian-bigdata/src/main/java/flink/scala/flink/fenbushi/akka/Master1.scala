@@ -2,13 +2,16 @@ package flink.scala.flink.fenbushi.akka
 
 import akka.actor.{Actor, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
+
 /**
   * Created on 2019-06-24
   *
   * @author :hao.li
   */
 
-class Master1 extends Actor{
+class Master1 extends Actor {
+  println("constructor invoked")
+
   //接收要处理的消息
   override def receive: Receive = {
     case "Register" => {
@@ -16,15 +19,16 @@ class Master1 extends Actor{
       //给消息的发送者返回消息，sender是一个方法可以拿到消息发送者的引用
       sender ! "Response"
     }
-    case "HeartBeat" =>{
+    case "HeartBeat" => {
 
     }
-    case "CheckTimeOut"=>{
+    case "CheckTimeOut" => {
       println("internal msg check")
     }
   }
 }
-object Master1{
+
+object Master1 {
   def main(args: Array[String]): Unit = {
     val host = "localhost"
     val port = 8888
@@ -35,8 +39,8 @@ object Master1{
          |akka.remote.netty.tcp.port = "$port"
        """.stripMargin
     val config = ConfigFactory.parseString(configStr)
-    val actorSystem = ActorSystem("MasterActorSystem",config)
-    val masterActor = actorSystem.actorOf(Props[Master1],"MasterA")
+    val actorSystem = ActorSystem("MasterActorSystem", config)
+    val masterActor = actorSystem.actorOf(Props[Master1], "MasterA")
     masterActor ! "CheckTimeOut"
   }
 }

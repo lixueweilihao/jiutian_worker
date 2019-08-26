@@ -21,7 +21,6 @@ class Worker(val host:String,val port:Int,val memory:Int,val cores:Int) extends 
     masterRef = master
     //worker向Master发消息,这个发送消息实际上是拿到了Master的引用之后自己给自己发消息
     //发送注册消息，（worker的id,worker的内存，cpu的总核数）
-
     master ! RegisterWorker(WORKER_ID,memory,cores)
   }
   override def receive:Receive ={
@@ -45,12 +44,12 @@ object Worker{
 
 
   def main(args: Array[String]): Unit = {
-    val workerHost = args(0)
-    val workerPort = args(1).toInt
-    val masterHost = args(2)
-    val masterPort = args(3).toInt
-    val workerMemory = args(4).toInt
-    val workerCores = args(5).toInt
+    val workerHost = "localhost"
+    val workerPort = 8889
+    val masterHost = "localhost"
+    val masterPort = 8888
+    val workerMemory = 4
+    val workerCores = 2
     val configStr =
       s"""
          |akka.actor.provider = "akka.remote.RemoteActorRefProvider"

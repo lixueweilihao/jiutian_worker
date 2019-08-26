@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle/HiveMoudle.iml" filepath="$PROJECT_DIR$/jiutian-maven/HiveMoudle/HiveMoudle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Protoful/Protoful.iml" filepath="$PROJECT_DIR$/Protoful/Protoful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-maven/RomanceMoudle/RomanceMoudle.iml" filepath="$PROJECT_DIR$/jiutian-maven/RomanceMoudle/RomanceMoudle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-maven/SparkMoulde/SparkMoulde.iml" filepath="$PROJECT_DIR$/jiutian-maven/SparkMoulde/SparkMoulde.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-maven/dist/assembly.iml" filepath="$PROJECT_DIR$/jiutian-maven/dist/assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-others/jiutain-others.iml" filepath="$PROJECT_DIR$/jiutian-others/jiutain-others.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" filepath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" filepath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-maven/jiutian-maven1.iml" filepath="$PROJECT_DIR$/jiutian-maven/jiutian-maven1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian_worker.iml" filepath="$PROJECT_DIR$/jiutian_worker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+    </modules>
+  </component>
+</project>

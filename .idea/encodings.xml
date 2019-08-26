@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Protoful" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-ai" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-leetcode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-maven" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-maven/RomanceMoudle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-maven/SparkMoulde" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-maven/dist" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-others" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-scala" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leetcode" charset="UTF-8" />
+  </component>
+</project>
