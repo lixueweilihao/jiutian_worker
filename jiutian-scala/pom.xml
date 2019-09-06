@@ -56,12 +56,12 @@
             <artifactId>scala-library</artifactId>
             <version>2.11.4</version>
         </dependency>
-        <dependency> <!-- Spark -->
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.11</artifactId>
-            <version>2.4.0</version>
-            <scope>compile</scope>
-        </dependency>
+<!--        <dependency> &lt;!&ndash; Spark &ndash;&gt;-->
+<!--            <groupId>org.apache.spark</groupId>-->
+<!--            <artifactId>spark-core_2.11</artifactId>-->
+<!--            <version>2.4.0</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
         <dependency> <!-- Spark Streaming -->
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming_2.11</artifactId>
