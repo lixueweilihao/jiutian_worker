@@ -42,7 +42,8 @@ public class FlinkLoginFail {
                         return loginEvent.getType().equals("fail");
                     }
                 })
-                .within(Time.seconds(3));
+                .within(Time.seconds(3))
+                .times(3);
 
         PatternStream<LoginEvent> patternStream = CEP.pattern(
                 loginEventStream.keyBy(LoginEvent::getUserId),
