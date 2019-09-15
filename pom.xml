@@ -29,7 +29,7 @@
         <storm-kafka.version>0.9.4</storm-kafka.version>
         <es.version>6.7.1</es.version>
         <jackson.version>2.8.4</jackson.version>
-        <flink.version>1.6.4</flink.version>
+        <flink.version>1.7.2</flink.version>
         <scala.version>2.11.4</scala.version>
         <slf4j.version>1.7.25</slf4j.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

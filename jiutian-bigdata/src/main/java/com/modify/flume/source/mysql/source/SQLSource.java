@@ -110,12 +110,12 @@ public class SQLSource extends AbstractSource implements Configurable, PollableS
         }
     }
 
-    @Override
+//    @Override
     public long getBackOffSleepIncrement() {
         return 1000;
     }
 
-    @Override
+//    @Override
     public long getMaxBackOffSleepInterval() {
         return 5000;
     }
