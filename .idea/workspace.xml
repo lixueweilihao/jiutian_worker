@@ -2,35 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c713e1-78f4-4fe3-8361-a7939405eaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/demo/test/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaCounterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaGaugeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaHistogramsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaMeterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaTimerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CounterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/GaugeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/Metric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/test/java/ScheduledPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_6_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_12_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vlkan_flatbuffers_1_2_0_3f79e055.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_airlift_aircompressor_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_razorvine_pyrolite_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_format_0_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_memory_0_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_vector_0_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_crypto_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_core_nohive_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_mapreduce_nohive_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_shims_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_11_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_12_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm6_shaded_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_htrace_htrace_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_12_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_12_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_12_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_scalap_2_11_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_scalap_2_12_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_7_45.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_shims_0_7_45.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_12_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_12_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka/StreamingKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka/start_spark.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/mapreduce/SparkDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/shakespear.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming/StreamingProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming/start_spark.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiutian-others/jiutain-others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/jiutain-others.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiutian-others/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/templet.xls" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/templet.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian_worker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian_worker.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/Spark/target/" />
@@ -75,100 +166,83 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/pom.xml">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/mapreduce/SparkDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="165" column="44" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/test/java/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/test/java/ScheduledPoolTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+            <state relative-caret-position="73">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2034#2035#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/pom.xml">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/SimpleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="90">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <folding>
+                  <element signature="imports" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/shakespear.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming/start_spark.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming/StreamingProject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/Metric.java">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="326">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaMeterExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka/start_spark.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/software/repo/io/dropwizard/metrics/metrics-core/4.0.5/metrics-core-4.0.5.jar!/com/codahale/metrics/Meter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding>
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka/StreamingKafka.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark-4-kafka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/test/demo/RemoteMessage.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="555">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -227,10 +301,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/jetty/JettyReceive.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/jetty/OneConnector.java" />
-        <option value="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/code220/demo.java" />
-        <option value="$PROJECT_DIR$/jiutian-scala/src/main/scala/scala/scalalearning/control/LabeledBreakDemo.scala" />
         <option value="$PROJECT_DIR$/jiutian-scala/src/main/scala/scala/scalalearning/control/BreakAndContinueDemo.scala" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/PoolingHttpClient.scala" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/HttpClientImpl.scala" />
@@ -276,8 +346,12 @@
         <option value="$PROJECT_DIR$/jiutian-bigdata/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-others/src/test/java/test.java" />
         <option value="$PROJECT_DIR$/jiutian-others/src/test/java/ScheduledPoolTest.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/Metric.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/mapreduce/SparkDemo.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/SimpleApp.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming/StreamingProject.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka/StreamingKafka.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/pom.xml" />
       </list>
     </option>
   </component>
@@ -333,9 +407,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="621" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -395,7 +471,68 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="edulinks" type="462c0819:PsiDirectoryNode" />
+              <item name="dataflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-others" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dataflow" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-others" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dataflow" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-others" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dataflow" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-4-kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-others" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dataflow" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-4-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-others" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dataflow" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark-4-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
@@ -424,7 +561,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_201" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/jiutian-bigdata/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -440,28 +577,28 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp" />
+      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark-2-MapReduce" />
+      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark" />
       <recent name="$PROJECT_DIR$/jiutian-scala/src/main" />
       <recent name="$PROJECT_DIR$/jiutian-maven1/dist/assembly" />
-      <recent name="$PROJECT_DIR$/jiutian-maven1/SparkMoulde/src/main/java/com/play/maven/spark" />
-      <recent name="$PROJECT_DIR$/jiutian-maven1/RomanceMoudle/src/main/resources" />
-      <recent name="$PROJECT_DIR$/jiutian-maven1/RomanceMoudle/src/main/java/com/play/maven/romance" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dataflow.spark.spark.kafka" />
+      <recent name="com.dataflow.spark.spark.spark.streaming" />
+      <recent name="com.dataflow.spark.spark.mapreduce" />
       <recent name="com.modify.flume.interceptor" />
       <recent name="flink.scala.flink.fenbushi.akka.test.demo" />
-      <recent name="flink.scala.flink.fenbushi.akka" />
-      <recent name="flink.scala.flink.fenbushi.akka.test" />
-      <recent name="flink.java.opentsdb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka" />
+      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming" />
+      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp" />
       <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric" />
       <recent name="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep" />
-      <recent name="$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/source/mysql/source" />
-      <recent name="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/test" />
-      <recent name="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -476,20 +613,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Metric">
-    <configuration name="CepEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flink.java.cep.CepEvent" />
-      <module name="jiutian-bigdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="flink.java.cep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test spark-3-streaming">
     <configuration name="FlinkLoginFail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="flink.java.cep.FlinkLoginFail" />
       <module name="jiutian-bigdata" />
@@ -531,20 +655,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="go test spark-3-streaming" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <working_directory value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark-3-streaming" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark-3-streaming" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.FlinkLoginFail" />
-      <item itemvalue="Application.CepEvent" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.ScheduledPoolTest" />
       <item itemvalue="Application.Metric" />
+      <item itemvalue="Go Test.go test spark-3-streaming" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test spark-3-streaming" />
         <item itemvalue="Application.Metric" />
         <item itemvalue="Application.ScheduledPoolTest" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.FlinkLoginFail" />
-        <item itemvalue="Application.CepEvent" />
       </list>
     </recent_temporary>
   </component>
@@ -608,31 +740,31 @@
       <workItem from="1571621465089" duration="5107000" />
       <workItem from="1571637481886" duration="67000" />
       <workItem from="1571649253216" duration="35000" />
-      <workItem from="1572621101436" duration="4798000" />
+      <workItem from="1572621101436" duration="6420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182893000" />
+    <option name="totallyTimeSpent" value="184515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15401146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29727793" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31610942" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37546468" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31592357" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37546468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49326426" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.62816614" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6280255" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -1071,164 +1203,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/sink/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/source/mysql/source/SqlSourceCounter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/source/mysql/source/SqlSourceCounterMBean.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/source/mysql/source/HibernateHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="146" column="43" selection-start-line="146" selection-start-column="43" selection-end-line="146" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/source/mysql/source/SQLSourceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4950">
-          <caret line="354" column="11" selection-start-line="354" selection-start-column="11" selection-end-line="354" selection-end-column="11" />
-          <folding>
-            <element signature="e#12061#12062#0" expanded="true" />
-            <element signature="e#12087#12088#0" expanded="true" />
-            <element signature="e#12401#12402#0" expanded="true" />
-            <element signature="e#12422#12423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/source/mysql/source/SQLSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka_test/Kafka10Source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka10/ConsumerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/source/mysql/source/SQLServerCustomDialect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-scala/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/com/modify/flume/interceptor/DTCInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka10/ProducerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/FinalBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/SumWordBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/CreateSentenceSpout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/SenqueceBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/MessageScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/com/lh/test/ObjectMapperFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/test/java/flink/scala/opentsdb/client/Demo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/hello/HelloWorldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/hello/HelloWorldServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/software/repo/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.jar!/akka/actor/Actor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1417,17 +1391,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/pom.xml">
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/GaugeExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="178">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="e#453#578#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CounterExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/Metric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaTimerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/io/dropwizard/metrics/metrics-core/4.0.5/metrics-core-4.0.5.jar!/com/codahale/metrics/EWMA.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/software/repo/io/dropwizard/metrics/metrics-core/4.0.5/metrics-core-4.0.5.jar!/com/codahale/metrics/Meter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding>
             <element signature="e#1021#1022#0" expanded="true" />
             <element signature="e#1050#1051#0" expanded="true" />
@@ -1437,15 +1460,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaMeterExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/Metric.java">
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaHistogramsExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaGaugeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaCounterExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/src/main/java/SparkDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark-1-simpleApp/shakespear.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark-1-simpleApp/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <folding>
+              <element signature="imports" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="17" column="17" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/mapreduce/SparkDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/SimpleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <folding>
+              <element signature="imports" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/shakespear.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming/start_spark.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming/StreamingProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark-3-streaming/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka/start_spark.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka/StreamingKafka.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark-4-kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
