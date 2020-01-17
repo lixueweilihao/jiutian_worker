@@ -11,6 +11,7 @@
         <module name="dist" />
         <module name="jiutian-ai" />
         <module name="jiutian-bigdata" />
+        <module name="demo1" />
         <module name="RomanceMoudle" />
         <module name="jiutian-scala" />
         <module name="assembly" />
@@ -23,6 +24,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="assembly" target="1.8" />
+      <module name="demo1" target="1.8" />
       <module name="dist" target="1.8" />
       <module name="Elasticsearch" target="1.8" />
       <module name="flink" target="1.8" />

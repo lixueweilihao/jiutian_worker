@@ -10,174 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c713e1-78f4-4fe3-8361-a7939405eaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jiutian_bigdata_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/kafka_web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/kafka_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/webSocket_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/webSocket_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_api_0_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_core_0_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_cask_tephra_tephra_hbase_compat_1_0_0_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codahale_metrics_metrics_core_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_joshelser_dropwizard_metrics_hadoop_metrics2_reporter_0_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jolbox_bonecp_0_8_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_json_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_airlift_aircompressor_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jmx_4_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_6_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jdo_jdo_api_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_transaction_api_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javolution_javolution_5_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jpam_jpam_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_derby_derby_10_10_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_annotation_1_0_spec_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jaspic_1_0_spec_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_registry_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_applicationhistoryservice_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_resourcemanager_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_web_proxy_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_common_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_jdbc_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_llap_client_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_llap_common_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_llap_common_test_jar_tests_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_llap_server_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_llap_tez_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_metastore_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_serde_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_service_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_service_rpc_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_shims_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_hive_storage_api_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_shims_hive_shims_0_23_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_shims_hive_shims_common_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hive_shims_hive_shims_scheduler_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_1_2_api_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_web_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_core_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_bundle_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_slider_slider_core_0_90_2_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libfb303_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_api_0_6_0_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_common_0_6_0_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_core_0_6_0_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_discovery_api_0_6_0_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_discovery_core_0_6_0_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_zookeeper_0_6_0_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_datanucleus_datanucleus_api_jdo_4_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_datanucleus_datanucleus_core_4_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_datanucleus_datanucleus_rdbms_4_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_datanucleus_javax_jdo_3_2_0_m3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_aggregate_jetty_all_7_6_0_v20120127.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_tyrus_bundles_tyrus_standalone_client_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_java_websocket_Java_WebSocket_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/WebSocketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/demo/WebSocketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/test/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/test/client/MyWebSocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/test/server/MyWebSocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/test/server/WebSocketMapUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/MetricEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/test/TestGauges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/kafka-web/kafka-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/kafka-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/kafka-web/src/main/java/org/person/ConsumerKafka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/kafka-web/src/main/java/org/person/RunThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/kafka-web/src/main/java/org/person/WebSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/WebSocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webSocket/webSocket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_7_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_7_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_catalina_7_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_coyote_7_0_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_7_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_7_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_7_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSocket/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSocket/demo1/demo1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0_pr2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0_pr3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0_pr2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0_pr3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0_pr3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_29_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_common_1_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_common_1_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_core_1_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_core_1_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_management_1_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_management_1_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_test_jar_tests_3_4_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_10_0_0_alpha0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_10_0_0_alpha1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_10_0_0_alpha0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_10_0_0_alpha1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_10_0_0_alpha0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_10_0_0_alpha1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_10_0_0_alpha0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_10_0_0_alpha1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_20_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_23_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_20_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_23_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_20_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_23_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_20_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_23_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_20_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_23_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_20_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_23_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protoful/Protoful.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Protoful/Protoful.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveClientUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveJdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveJdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/MyProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/MyProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/ProducerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/ProducerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/hadoop/hbase/java/HbaseMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/hadoop/hbase/java/HbaseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/hadoop/hbase/java/HbaseUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/hive/hive/HiveClientUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/hive/hive/HiveClientUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/hive/hive/HiveJdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/hive/hive/HiveJdbcTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/kafka/kafka08/MyProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/kafka/kafka08/MyProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/kafka/kafka08/ProducerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/kafka/kafka08/ProducerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/jiutain-others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/jiutain-others.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-scala/jiutian-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-scala/jiutian-scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian_worker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian_worker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/Spark/target/" />
@@ -211,6 +58,7 @@
     <ignored path="$PROJECT_DIR$/../../DTC/workspace/java/dtc_java/WebSocketExplorer/target/" />
     <ignored path="$PROJECT_DIR$/webSocket/target/" />
     <ignored path="$PROJECT_DIR$/webSocket/kafka-web/target/" />
+    <ignored path="$PROJECT_DIR$/webSocket/demo1/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,15 +93,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SampleConfigurator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -278,8 +117,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -287,10 +126,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webSocket/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webSocket/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="270">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -376,7 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/CreateSentenceSpout.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/SumWordBolt.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-scala/pom.xml" />
@@ -425,8 +275,9 @@
         <option value="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SimpleEncoder.java" />
         <option value="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/AppMain.java" />
         <option value="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/WebSocketClient.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/webSocket/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/webSocket/README.md" />
       </list>
     </option>
   </component>
@@ -777,12 +628,12 @@
       <workItem from="1578993501498" duration="5187000" />
       <workItem from="1579003949404" duration="909000" />
       <workItem from="1579005321889" duration="7184000" />
-      <workItem from="1579239862178" duration="1449000" />
+      <workItem from="1579239862178" duration="1568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252926000" />
+    <option name="totallyTimeSpent" value="253045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -806,12 +657,12 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31592357" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34300518" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24783148" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2476684" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -1328,13 +1179,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaHistogramsExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/CodaGaugeExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1664,13 +1508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SampleConfigurator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1716,20 +1553,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+    <entry file="file://$PROJECT_DIR$/webSocket/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1808,7 +1662,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>kafka-web</last-edited>
+          <last-edited>webSocket</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
