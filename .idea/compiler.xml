@@ -14,7 +14,6 @@
         <module name="demo1" />
         <module name="RomanceMoudle" />
         <module name="jiutian-scala" />
-        <module name="assembly" />
         <module name="HiveMoudle" />
         <module name="Protoful" />
         <module name="leetcode" />
@@ -23,7 +22,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="assembly" target="1.8" />
       <module name="demo1" target="1.8" />
       <module name="dist" target="1.8" />
       <module name="Elasticsearch" target="1.8" />

@@ -6,8 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/Protoful/Protoful.iml" filepath="$PROJECT_DIR$/Protoful/Protoful.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-maven/RomanceMoudle/RomanceMoudle.iml" filepath="$PROJECT_DIR$/jiutian-maven/RomanceMoudle/RomanceMoudle.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-maven/SparkMoulde/SparkMoulde.iml" filepath="$PROJECT_DIR$/jiutian-maven/SparkMoulde/SparkMoulde.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jiutian-maven/dist/assembly.iml" filepath="$PROJECT_DIR$/jiutian-maven/dist/assembly.iml" />
       <module fileurl="file://$PROJECT_DIR$/webSocket/demo1/demo1.iml" filepath="$PROJECT_DIR$/webSocket/demo1/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-maven/dist/assembly.iml" filepath="$PROJECT_DIR$/jiutian-maven/dist/assembly.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" filepath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" filepath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" />
