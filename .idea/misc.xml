@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../../DTC/workspace/java/dtc_java/WebSocketExplorer/kafka-web" />
+    <file type="web" url="file://$PROJECT_DIR$/webSocket" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-maven/pom.xml" />
+        <option value="$PROJECT_DIR$/jiutian-scala/pom.xml" />
+        <option value="$PROJECT_DIR$/../../DTC/workspace/java/dtc_java/WebSocketExplorer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../../DTC/workspace/java/dtc_java/WebSocketExplorer/kafka-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../../DTC/workspace/java/dtc_java/WebSocketExplorer/pom.xml" />
         <option value="$PROJECT_DIR$/Elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/HDFS_TEST/pom.xml" />
         <option value="$PROJECT_DIR$/HttpClient/pom.xml" />
         <option value="$PROJECT_DIR$/Kafka-Test/pom.xml" />
         <option value="$PROJECT_DIR$/Spark/pom.xml" />
         <option value="$PROJECT_DIR$/flink/pom.xml" />
-        <option value="$PROJECT_DIR$/jiutian-scala/pom.xml" />
+        <option value="$PROJECT_DIR$/webSocket/kafka-web/pom.xml" />
       </set>
     </option>
   </component>

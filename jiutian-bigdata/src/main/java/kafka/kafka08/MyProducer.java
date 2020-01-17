@@ -13,26 +13,31 @@ import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
 public class MyProducer implements Runnable {
+    static final String[] HOST = {"1.2.3.4.5", "2.3.4.5.6", "3.4.5.6.7", "4.5.6.7.8", "5.6.7.8.9", "6.7.8.9.10"};
+    static final String[] cpu_OID = {"102_101_101_101_101", "102_101_102_103_103"};
+    static final String[] OID = {"102_101_103_107_108"};
+    Random df = new Random();
 
-    private static final String TOPIC = "connect-test"; //kafka创建的topic
+    private static final String TOPIC = "zabbix_test"; //kafka创建的topic
 //    private static final String TOPIC = "nsfsale_create_order"; //kafka创建的topic
 //    private static String TOPIC ; //kafka创建的topic
-        private final String BROKER_LIST = "10.3.6.7:9092,10.3.6.12:9092,10.3.6.16:9092";
-//    private final String BROKER_LIST ="A:2181,B:2181,V:2181";
-        //    private static String BROKER_LIST;
+    private final String BROKER_LIST = "10.3.7.232:9092,10.3.7.233:9092,10.3.7.234:9092";
+    //    private final String BROKER_LIST ="A:2181,B:2181,V:2181";
+    //    private static String BROKER_LIST;
     private final String SERIALIZER_CLASS = "kafka.serializer.StringEncoder"; // 序列化类
-//    private final String ZK_CONNECT = "A:2181,B:2181,C:2181";
+    //    private final String ZK_CONNECT = "A:2181,B:2181,C:2181";
     SpecificDatumWriter<AvroFlumeEvent> writer = new SpecificDatumWriter<AvroFlumeEvent>(AvroFlumeEvent.class);
     ByteArrayOutputStream tempOutStream = new ByteArrayOutputStream();
     BinaryEncoder encoder;
     String schemaString = "{\"type\":\"record\",\"name\":\"Event\",\"fields\":[{\"name\":\"headers\",\"type\":{\"type\":\"map\",\"values\":\"string\"}},{\"name\":\"body\",\"type\":\"int\"}]}";
     byte[] bytes;
     Logger logger = LoggerFactory.getLogger(MyProducer.class);
-    private long number = 100000000000000L;
+    private long number = 1000000000;
     Properties props;
     Producer<String, String> producer;
     private AtomicInteger value = new AtomicInteger(1);
@@ -72,7 +77,7 @@ public class MyProducer implements Runnable {
                     producer.send(data);
                     System.out.println("msg = " + data.value());
                     increase();
-                    Thread.sleep(100);
+                    Thread.sleep(1);
                 }
 //                reader.close();
             } catch (IOException e) {
@@ -94,18 +99,23 @@ public class MyProducer implements Runnable {
     public void publishMessageOfOne(String topic, long count) {
 
 //        String CONTENT = "{\"account_number\":\"000\",\"balance\":26210,\"firstname\":\"Teri\",\"lastname\":\"Hester\",\"age\":39,\"gender\":\"M\",\"address\":\"653 Abbey Court\",\"employer\":\"Electonic\",\"email\":\"terihester@electonic.com\",\"city\":\"Martell\",\"state\":\"LIHAO\"}";
-        System.out.println("agasdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         for (int i = 0; i < count; i++)
             try {
+                int banka = df.nextInt(200);
+                int port = df.nextInt(3);
+                int value = df.nextInt(100);
                 Date date = new Date();
                 SimpleDateFormat myFmt1 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'+0800'");
-                String CONTENT =myFmt1.format(date)+"$$cron$$notice$$dtc-test$$ dtcfinished 0anacron";
+//                String CONTENT =myFmt1.format(date)+"$$cron$$notice$$dtc-test$$ dtcfinished 0anacron";
+                long l = System.currentTimeMillis();
+//                String CONTENT = "{\"time\"" + ":" + "\""+l+"\"" + "," + "\"code\"" + ":" + "\""+cpu_OID[df.nextInt(OID.length)]+"."+ banka + "." + port+"\"" +","+ "\"host\"" + ":" + "\""+HOST[df.nextInt(HOST.length)] +"\""+ "," + "\"nameCN\":\"内存总数\",\"value\"" + ":" + "\""+value +"\""+ "," + "\"nameEN\":\"mem_total\"}";
+                String CONTENT = "{\"time\"" + ":" + "\""+l+"\"" + "," + "\"code\"" + ":" + "\""+OID[df.nextInt(OID.length)]+"."+ banka +"\"" +","+ "\"host\"" + ":" + "\""+HOST[df.nextInt(HOST.length)] +"\""+ "," + "\"nameCN\":\"内存总数\",\"value\"" + ":" + "\""+value +"\""+ "," + "\"nameEN\":\"mem_total\"}";
                 ProducerRecord<String, String> msg = new ProducerRecord(topic, CONTENT);
                 System.out.println("cccccccccccccccccccccccccccccccccccccc");
                 producer.send(msg);
                 System.out.println("msg = " + getValue() + " : " + msg.value());
                 increase();
-                Thread.sleep(10000);
+                Thread.sleep(2000);
             } catch (Exception e) {
                 logger.info(e.getMessage());
             }

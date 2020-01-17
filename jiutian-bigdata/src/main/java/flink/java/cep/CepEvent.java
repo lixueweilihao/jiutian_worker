@@ -25,10 +25,13 @@ public class CepEvent {
                 = StreamExecutionEnvironment.getExecutionEnvironment();
         DataStream<Tuple3<Integer, String, String>> eventStream = env.fromElements(
                 Tuple3.of(1500, "login1", "fail"),
-                Tuple3.of(1500, "login2", "fail"),
-                Tuple3.of(1500, "login3", "fail"),
-                Tuple3.of(1320, "login", "success"),
+                Tuple3.of(1500, "login1", "fail"),
+                Tuple3.of(1320, "login2", "fail"),
+                Tuple3.of(1500, "login1", "fail"),
+                Tuple3.of(1320, "login2", "fail"),
+                Tuple3.of(1320, "login2", "fail"),
                 Tuple3.of(1450, "exit", "success"),
+                Tuple3.of(1320, "login2", "fail"),
                 Tuple3.of(982, "login", "fail"));
         AfterMatchSkipStrategy skipStrategy = AfterMatchSkipStrategy.skipPastLastEvent();
         Pattern<Tuple3<Integer, String, String>, ?> loginFail =
@@ -41,7 +44,7 @@ public class CepEvent {
                             }
                         }).times(3).within(Time.seconds(5));
         PatternStream<Tuple3<Integer, String, String>> patternStream =
-                CEP.pattern(eventStream.keyBy(x -> x.f0), loginFail);
+                CEP.pattern(eventStream.keyBy(x -> x.f1), loginFail);
         DataStream<String> alarmStream =
                 patternStream.select(new PatternSelectFunction<Tuple3<Integer, String, String>, String>() {
                     @Override

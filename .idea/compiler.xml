@@ -6,17 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RomanceMoudle" />
+        <module name="kafka-web" />
         <module name="SparkMoulde" />
-        <module name="HiveMoudle" />
-        <module name="assembly" />
-        <module name="jiutian-ai" />
-        <module name="jiutian-others" />
-        <module name="Protoful" />
-        <module name="jiutian-bigdata" />
-        <module name="leetcode" />
         <module name="dist" />
-        <module name="jiutain-others" />
+        <module name="jiutian-ai" />
+        <module name="jiutian-bigdata" />
+        <module name="RomanceMoudle" />
+        <module name="jiutian-scala" />
+        <module name="assembly" />
+        <module name="HiveMoudle" />
+        <module name="Protoful" />
+        <module name="leetcode" />
+        <module name="java" />
+        <module name="jiutian-others" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -27,21 +29,24 @@
       <module name="HDFS_TEST" target="1.8" />
       <module name="HiveMoudle" target="1.8" />
       <module name="HttpClient" target="1.8" />
-      <module name="jiutain-others" target="1.8" />
+      <module name="java" target="1.8" />
       <module name="jiutian-ai" target="1.8" />
       <module name="jiutian-bigdata" target="1.8" />
       <module name="jiutian-leetcode" target="1.8" />
       <module name="jiutian-maven" target="1.8" />
-      <module name="jiutian-maven1" target="1.8" />
       <module name="jiutian-others" target="1.8" />
       <module name="jiutian-scala" target="1.8" />
       <module name="jiutian_worker" target="1.8" />
       <module name="Kafka-Test" target="1.8" />
+      <module name="kafka-web" target="1.8" />
+      <module name="kafkaweb" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="Protoful" target="1.8" />
       <module name="RomanceMoudle" target="1.8" />
       <module name="Spark" target="1.8" />
       <module name="SparkMoulde" target="1.8" />
+      <module name="webSocket" target="1.8" />
+      <module name="websocket" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

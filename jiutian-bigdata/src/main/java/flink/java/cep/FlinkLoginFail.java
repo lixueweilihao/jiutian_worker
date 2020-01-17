@@ -23,13 +23,7 @@ public class FlinkLoginFail {
                 new LoginEvent("1","192.168.0.1","fail"),
                 new LoginEvent("1","192.168.0.2","fail"),
                 new LoginEvent("1","192.168.0.3","fail"),
-                new LoginEvent("1","192.168.10,10","success"),
-                new LoginEvent("1","192.168.0.4","fail"),
-                new LoginEvent("1","192.168.0.5","fail"),
-                new LoginEvent("1","192.168.0.6","fail"),
-                new LoginEvent("1","192.168.0.7","fail"),
-                new LoginEvent("2","192.168.10,10","success")
-
+                new LoginEvent("1","192.168.10.10","success")
         ));
 
         Pattern<LoginEvent, LoginEvent> loginFailPattern = Pattern.<LoginEvent>
@@ -47,8 +41,8 @@ public class FlinkLoginFail {
                         return loginEvent.getType().equals("fail");
                     }
                 })
-                .within(Time.seconds(3))
-                .times(5);
+                .within(Time.seconds(3));
+//                .times();
 
         PatternStream<LoginEvent> patternStream = CEP.pattern(
                 loginEventStream.keyBy(LoginEvent::getUserId),
@@ -58,8 +52,8 @@ public class FlinkLoginFail {
             List<LoginEvent> first = pattern.get("begin");
             List<LoginEvent> second = pattern.get("next");
 
-//            return new LoginWarning(second.get(0).getUserId(),second.get(0).getIp(), second.get(0).getType());
-            return new LoginWarning(first.get(0).getUserId(),first.get(0).getIp(), first.get(0).getType());
+            return new LoginWarning(second.get(0).getUserId(),second.get(0).getIp(), second.get(0).getType());
+//            return new LoginWarning(first.get(0).getUserId(),first.get(0).getIp(), first.get(0).getType());
         });
 
         loginFailDataStream.print();

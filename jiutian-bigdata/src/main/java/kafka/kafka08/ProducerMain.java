@@ -12,9 +12,9 @@ public class ProducerMain {
         BlockingQueue<Runnable> bqueue = new ArrayBlockingQueue<Runnable>(20);
         ThreadPoolExecutor poll = new ThreadPoolExecutor(20, 20, 200, TimeUnit.MILLISECONDS, bqueue);
         MyProducer mp = new MyProducer();
-//        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             poll.execute(mp);
-//        }
-//        poll.shutdown();
+        }
+        poll.shutdown();
     }
 }

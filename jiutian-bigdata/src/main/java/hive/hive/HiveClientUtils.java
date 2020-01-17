@@ -13,7 +13,7 @@ public class HiveClientUtils {
 
     //填写hive的IP，之前在配置文件中配置的IP
 
-    private static String Url = "jdbc:hive2://10.37.167.204.1.138:10000/default";
+    private static String Url = "jdbc:hive2://10.3.7.234:10000/userdb";
 
     private static Connection conn;
 
@@ -30,8 +30,7 @@ public class HiveClientUtils {
             Class.forName(driverName);
 
             //此处的用户名一定是有权限操作HDFS的用户，否则程序会提示"permission deny"异常
-
-            conn = DriverManager.getConnection(Url, "", "");
+            conn = DriverManager.getConnection(Url,"root","dtc2019234!");
 
         } catch (ClassNotFoundException e) {
 
@@ -42,11 +41,8 @@ public class HiveClientUtils {
         } catch (SQLException e) {
 
             e.printStackTrace();
-
         }
-
         return conn;
-
     }
 
     public static PreparedStatement prepare(Connection conn, String sql) {
@@ -107,7 +103,7 @@ public class HiveClientUtils {
 
     public static void main(String[] args) {
 
-        String tablename = "test1";
+        String tablename = "test";
 
         getAll(tablename);
 

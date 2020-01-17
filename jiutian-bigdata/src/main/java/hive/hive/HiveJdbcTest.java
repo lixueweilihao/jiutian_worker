@@ -5,7 +5,7 @@ import java.sql.*;
 public class HiveJdbcTest {
 
     private static String driverName =
-            "org.apache.hadoop.hive.jdbc.HiveDriver";
+            "org.apache.hive.jdbc.HiveDriver";
 
     public static void main(String[] args)
             throws SQLException {
@@ -16,16 +16,16 @@ public class HiveJdbcTest {
             System.exit(1);
         }
 
-        Connection con = DriverManager.getConnection(
-                "jdbc:hive2://10.27.1.138:10000/default");
+        Connection con = DriverManager.getConnection("jdbc:hive2://10.3.7.234:10000/userdb");
         Statement stmt = con.createStatement();
-        String tableName = "t";
-        stmt.execute("drop table if exists " + tableName);
-        stmt.execute("create table " + tableName +
-                " (key int, value string)");
-        System.out.println("Create table success!");
+        String tableName = "test";
+//        stmt.execute("drop table if exists " + tableName);
+//        stmt.execute("create table " + tableName +
+//                " (key int, value string)");
+//        System.out.println("Create table success!");
         // show tables
-        String sql = "show tables '" + tableName + "'";
+//        String sql = "show tables '" + tableName + "'";
+        String sql = "select * from " + tableName;
         System.out.println("Running: " + sql);
         ResultSet res = stmt.executeQuery(sql);
         if (res.next()) {
