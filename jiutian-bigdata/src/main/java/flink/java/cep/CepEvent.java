@@ -1,5 +1,6 @@
 package flink.java.cep;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.cep.CEP;
 import org.apache.flink.cep.PatternSelectFunction;
@@ -19,21 +20,22 @@ import java.util.Map;
  *
  * @author :hao.li
  */
+@Slf4j
 public class CepEvent {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env
                 = StreamExecutionEnvironment.getExecutionEnvironment();
         DataStream<Tuple3<Integer, String, String>> eventStream = env.fromElements(
+                Tuple3.of(1400, "login1", "fail"),
                 Tuple3.of(1500, "login1", "fail"),
-                Tuple3.of(1500, "login1", "fail"),
+                Tuple3.of(1310, "login2", "fail"),
+                Tuple3.of(1600, "login1", "fail"),
                 Tuple3.of(1320, "login2", "fail"),
-                Tuple3.of(1500, "login1", "fail"),
-                Tuple3.of(1320, "login2", "fail"),
-                Tuple3.of(1320, "login2", "fail"),
+                Tuple3.of(1330, "login2", "fail"),
                 Tuple3.of(1450, "exit", "success"),
-                Tuple3.of(1320, "login2", "fail"),
+                Tuple3.of(1340, "login2", "fail"),
                 Tuple3.of(982, "login", "fail"));
-        AfterMatchSkipStrategy skipStrategy = AfterMatchSkipStrategy.skipPastLastEvent();
+        AfterMatchSkipStrategy skipStrategy = AfterMatchSkipStrategy.skipToFirst("begin");
         Pattern<Tuple3<Integer, String, String>, ?> loginFail =
                 Pattern.<Tuple3<Integer, String, String>>begin("begin", skipStrategy)
                         .where(new IterativeCondition<Tuple3<Integer, String, String>>() {
@@ -49,8 +51,10 @@ public class CepEvent {
                 patternStream.select(new PatternSelectFunction<Tuple3<Integer, String, String>, String>() {
                     @Override
                     public String select(Map<String, List<Tuple3<Integer, String, String>>> map) throws Exception {
+//                        log.info("p = {}", map);
+                        System.out.println("p = {},"+map);
                         String msg = String.format("ID %d has login failed 3 times in 5 seconds.and User %s"
-                                , map.values().iterator().next().get(0).f0,map.values().iterator().next().get(0).f1);
+                                , map.values().iterator().next().get(0).f0, map.values().iterator().next().get(0).f1);
                         return msg;
                     }
                 });

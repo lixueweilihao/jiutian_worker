@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="jiutian-bigdata:jar" />
+      <artifact name="kafka-websocket:war" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
@@ -10,8 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c713e1-78f4-4fe3-8361-a7939405eaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/kafka_websocket_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_9_2_0_8_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSocket/kafka-websocket/kafka-websocket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSocket/kafka-websocket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/org/jiutian/person/ConsumerKafka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/org/jiutian/person/RunThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/org/jiutian/person/WebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo1_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo1_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jiutian_bigdata_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kafka_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kafka_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webSocket_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webSocket_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/kafka_websocket_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/CepEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/target/classes/flink/java/cep/FlinkLoginFail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-maven/jiutian-maven1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webSocket/kafka-web/kafka-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webSocket/kafka-web/kafka-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webSocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webSocket/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/Spark/target/" />
@@ -46,6 +80,8 @@
     <ignored path="$PROJECT_DIR$/webSocket/target/" />
     <ignored path="$PROJECT_DIR$/webSocket/kafka-web/target/" />
     <ignored path="$PROJECT_DIR$/webSocket/demo1/target/" />
+    <ignored path="$PROJECT_DIR$/jiutian-bigdata/flink-demo/target/" />
+    <ignored path="$PROJECT_DIR$/webSocket/kafka-websocket/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,76 +98,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/AppMain.java">
+        <entry file="file://$PROJECT_DIR$/webSocket/kafka-websocket/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="310">
+              <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/filter/DispatcherFilter.java">
+        <entry file="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/WebSocketClient.java">
+        <entry file="file://$PROJECT_DIR$/jiutian-maven/RomanceMoudle/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/jiutian-maven/SparkMoulde/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSocket/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle/src/main/java/com/play/maven/hive/HiveTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/jiutian-maven/dist/assembly/assembly.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/README.md">
+        <entry file="file://$PROJECT_DIR$/jiutian-maven/jiutian-maven.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-maven/dist/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="61" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -139,26 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webSocket/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SimpleEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="750">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -217,22 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jiutian-scala/pom.xml" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/test/java/flink/scala/opentsdb/client/Demo.scala" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/readme.md" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/ReadMe.md" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/demo/test/Demo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/test/java/test.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/test/java/ScheduledPoolTest.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/Metric.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/mapreduce/SparkDemo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp/SimpleApp.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming/StreamingProject.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka/StreamingKafka.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/kafka/StreamingKafka.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/pom.xml" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric/edulinks/test/TestGauges.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveJdbcTest.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveClientUtils.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/MetricEvent.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/pom.xml" />
@@ -241,9 +240,7 @@
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/demo.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseMain.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseUtils.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" />
         <option value="$PROJECT_DIR$/java/src/main/java/WebSocketTest.java" />
         <option value="$PROJECT_DIR$/java/src/main/java/test/WebSocketMapUtil.java" />
         <option value="$PROJECT_DIR$/java/pom.xml" />
@@ -257,7 +254,6 @@
         <option value="$PROJECT_DIR$/webSocket/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/webSocket/kafka-web/pom.xml" />
         <option value="$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SampleDecoder.java" />
         <option value="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SampleConfigurator.java" />
         <option value="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SimpleEncoder.java" />
@@ -268,6 +264,25 @@
         <option value="$PROJECT_DIR$/webSocket/README.md" />
         <option value="$PROJECT_DIR$/java/README.md" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/README.md" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/cep-monitoring/pom.xml" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/flink-examples-streaming/pom.xml" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/monitoring/CEPMonitoring.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/examples/statemachine/KafkaEventsGeneratorJob.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/examples/statemachine/StateMachineExample.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/examples/twitter/TwitterExample.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/monitoring/test/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/test/java/test/StreamingExamplesITCase.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/test/java/test/socket/SocketWindowWordCountITCase.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" />
+        <option value="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/person/RunThread.java" />
+        <option value="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/org/jiutian/person/RunThread.java" />
+        <option value="$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/webSocket/kafka-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/org/jiutian/person/ConsumerKafka.java" />
       </list>
     </option>
   </component>
@@ -276,6 +291,13 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -297,35 +319,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jiutian-bigdata" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="jiutian-maven1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jiutian-bigdata" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jiutian-bigdata" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.flink:flink-table_2.11:1.7.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="jiutian-maven1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="381" />
+    <option name="y" value="82" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -334,6 +343,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,42 +355,24 @@
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-maven" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="webSocket" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.2.4" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.2.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.2.4.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.2.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.2.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hbase:hbase-client:1.2.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="hbase-client-1.2.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
@@ -389,11 +382,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="jiutian_worker" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -405,10 +400,11 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_201" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/jiutian-bigdata/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
@@ -422,13 +418,14 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+      <recent name="org.jiutian.flink.streaming.examples" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java" />
+      <recent name="$PROJECT_DIR$/webSocket/kafka-web/src/main" />
       <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/kafka" />
       <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/spark/streaming" />
       <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/spark/spark/simpleapp" />
-      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/dataflow/metric" />
-      <recent name="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kafka.kafka08" />
@@ -438,11 +435,11 @@
       <recent name="com.modify.flume.interceptor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/test" />
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main" />
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink-demo" />
       <recent name="$PROJECT_DIR$/webSocket" />
-      <recent name="$PROJECT_DIR$/webSocket/src/main/resources" />
-      <recent name="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket" />
-      <recent name="$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client" />
-      <recent name="$PROJECT_DIR$/java/src/main/java/demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -457,88 +454,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlinkLoginFail">
-    <configuration name="CepEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flink.java.cep.CepEvent" />
-      <module name="jiutian-bigdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="flink.java.cep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager">
+    <configuration name="kafka" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8.0_201">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/kafka_websocket_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="kafka-websocket:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/kafka_websocket_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_jiutian_worker_3" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63859" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="kafka-websocket:war" />
+        </option>
       </method>
     </configuration>
-    <configuration name="FlinkLoginFail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flink.java.cep.FlinkLoginFail" />
-      <module name="jiutian-bigdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="flink.java.cep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HbaseUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hadoop.hbase.java.HbaseUtils" />
-      <module name="jiutian-bigdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hadoop.hbase.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.kafka08.ProducerMain" />
-      <module name="jiutian-bigdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kafka.kafka08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.kafka08.demo" />
-      <module name="jiutian-bigdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kafka.kafka08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ProducerMain" />
-      <item itemvalue="Application.demo" />
-      <item itemvalue="Application.HbaseUtils" />
-      <item itemvalue="Application.CepEvent" />
-      <item itemvalue="Application.FlinkLoginFail" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.FlinkLoginFail" />
-        <item itemvalue="Application.CepEvent" />
-        <item itemvalue="Application.HbaseUtils" />
-        <item itemvalue="Application.demo" />
-        <item itemvalue="Application.ProducerMain" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -623,12 +614,18 @@
       <workItem from="1578993501498" duration="5187000" />
       <workItem from="1579003949404" duration="909000" />
       <workItem from="1579005321889" duration="7184000" />
-      <workItem from="1579239862178" duration="1761000" />
+      <workItem from="1579239862178" duration="5056000" />
+      <workItem from="1579245392501" duration="2276000" />
+      <workItem from="1579309897727" duration="4595000" />
+      <workItem from="1579326904321" duration="1427000" />
+      <workItem from="1579328350545" duration="915000" />
+      <workItem from="1579362399306" duration="70000" />
+      <workItem from="1579499934649" duration="224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253238000" />
+    <option name="totallyTimeSpent" value="266040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,38 +637,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="366" y="165" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41684434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32331902" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31592357" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3150259" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33375797" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34300518" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2476684" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.3205945" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32124352" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32928064" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.23834197" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32611465" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.23809524" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.39817628" />
       <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="CDI" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32826748" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Structure" order="1" weight="0.021489972" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24920128" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.37034383" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.36909872" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -680,6 +675,8 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="right" id="Key Promoter X" order="11" />
       <window_info anchor="right" id="SciView" order="12" />
+      <window_info anchor="right" id="JSF" order="13" />
+      <window_info anchor="right" id="CDI" order="14" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1012,7 +1009,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java</url>
-          <line>54</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
@@ -1060,19 +1057,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java</url>
-          <line>52</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java</url>
-          <line>53</line>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java</url>
-          <line>50</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
@@ -1174,13 +1171,82 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/MetricEvent.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/cep-monitoring/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="146" column="21" selection-start-line="52" selection-start-column="8" selection-end-line="146" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/examples/async/AsyncIOExample.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/flink-examples-streaming/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/resources/logback.xml" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/examples/statemachine/KafkaEventsGeneratorJob.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/examples/statemachine/StateMachineExample.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/examples/twitter/TwitterExample.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/monitoring/test/SimpleTest.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/test/java/test/StreamingExamplesITCase.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/test/java/test/socket/SocketWindowWordCountITCase.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/test/java/org/jiutain/monitoring/basic/FollowByPatternTest.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/test/java/test/examples/join/WindowJoinData.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink-demo/src/main/java/org/jiutian/monitoring/CEPMonitoring.java" />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1191,109 +1257,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/ReadFromKafka.java">
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/TansExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/WatermarkTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/WriteIntoKafka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/WriterHdfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-          <folding>
-            <element signature="e#2684#2685#0" expanded="true" />
-            <element signature="e#2742#2743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="795">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/hbase/hbase-client/1.2.4/hbase-client-1.2.4.jar!/org/apache/hadoop/hbase/client/HBaseAdmin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/hbase/hbase-client/1.2.4/hbase-client-1.2.4.jar!/org/apache/hadoop/hbase/filter/CompareFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/hbase/hbase-client/1.2.4/hbase-client-1.2.4.jar!/org/apache/hadoop/hbase/client/Scan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3735">
-          <caret line="277" column="16" selection-start-line="277" selection-start-column="16" selection-end-line="277" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/MyProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/LoginEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1314,268 +1284,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.scala">
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/LoginEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-cep_2.11/1.7.2/flink-cep_2.11-1.7.2.jar!/org/apache/flink/cep/nfa/aftermatch/AfterMatchSkipStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="133" column="18" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/ProducerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/WebSocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/test/server/MyWebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/test/client/MyWebSocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/test/server/WebSocketMapUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/demo/WebSocketTest.java">
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/ReadFromKafka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/test/MyTest.java">
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/java/org/person/WebSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/java/org/person/ConsumerKafka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SampleConfigurator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SampleDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/param/SimpleEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/AppMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/filter/DispatcherFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/src/main/java/org/web/websocket/client/WebSocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="24" selection-end-line="124" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webSocket/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/java/org/person/ConsumerKafka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/src/main/java/org/person/RunThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/README.md">
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/org/jiutian/person/ConsumerKafka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/org/jiutian/person/RunThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java/org/jiutian/person/WebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-websocket/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="21" selection-start-line="31" selection-start-column="7" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webSocket/kafka-websocket/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/RomanceMoudle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/SparkMoulde/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle/src/main/java/com/play/maven/hive/HiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/dist/sbin/romance.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/dist/version/version.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/dist/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/dist/assembly/assembly.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/jiutian-maven1.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-maven/jiutian-maven.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1596,11 +1481,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>jiutian-bigdata:jar</last-edited>
+          <last-edited>kafka-websocket:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1654,12 +1540,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>webSocket</last-edited>
+          <last-edited>Web|kafka-websocket</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

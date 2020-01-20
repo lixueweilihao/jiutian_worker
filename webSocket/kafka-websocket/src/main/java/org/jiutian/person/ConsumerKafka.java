@@ -1,4 +1,4 @@
-package person;
+package org.jiutian.person;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Properties;
 
-import static org.person.WebSocket.wbSockets;
+import static org.jiutian.person.WebSocket.wbSockets;
 
 /**
  * Created by youtNa on 2017/5/22.

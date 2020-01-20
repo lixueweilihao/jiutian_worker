@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../../DTC/workspace/java/dtc_java/WebSocketExplorer/kafka-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Protoful" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java" charset="UTF-8" />
@@ -18,6 +17,6 @@
     <file url="file://$PROJECT_DIR$/webSocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webSocket/demo1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webSocket/kafka-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webSocket/kafka-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webSocket/kafka-websocket" charset="UTF-8" />
   </component>
 </project>

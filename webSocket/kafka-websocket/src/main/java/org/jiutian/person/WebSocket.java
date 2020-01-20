@@ -1,4 +1,4 @@
-package person;
+package org.jiutian.person;
 
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 

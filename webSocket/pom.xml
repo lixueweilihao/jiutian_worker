@@ -18,6 +18,7 @@
     <modules>
         <module>kafka-web</module>
         <module>demo1</module>
+        <module>kafka-websocket</module>
     </modules>
 
     <properties>

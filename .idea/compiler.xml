@@ -8,28 +8,33 @@
         <outputRelativeToContentRoot value="true" />
         <module name="kafka-web" />
         <module name="SparkMoulde" />
-        <module name="dist" />
         <module name="jiutian-ai" />
-        <module name="jiutian-bigdata" />
-        <module name="demo1" />
+        <module name="Protoful" />
+        <module name="dist" />
+        <module name="kafka-websocket" />
         <module name="RomanceMoudle" />
         <module name="jiutian-scala" />
         <module name="HiveMoudle" />
-        <module name="Protoful" />
         <module name="leetcode" />
+        <module name="demo1" />
+        <module name="jiutain-others" />
         <module name="java" />
         <module name="jiutian-others" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="cep-monitoring" target="1.5" />
       <module name="demo1" target="1.8" />
       <module name="dist" target="1.8" />
       <module name="Elasticsearch" target="1.8" />
       <module name="flink" target="1.8" />
+      <module name="flink-demo" target="1.8" />
+      <module name="flink-examples-streaming" target="1.5" />
       <module name="HDFS_TEST" target="1.8" />
       <module name="HiveMoudle" target="1.8" />
       <module name="HttpClient" target="1.8" />
       <module name="java" target="1.8" />
+      <module name="jiutain-others" target="1.8" />
       <module name="jiutian-ai" target="1.8" />
       <module name="jiutian-bigdata" target="1.8" />
       <module name="jiutian-leetcode" target="1.8" />
@@ -39,6 +44,7 @@
       <module name="jiutian_worker" target="1.8" />
       <module name="Kafka-Test" target="1.8" />
       <module name="kafka-web" target="1.8" />
+      <module name="kafka-websocket" target="1.8" />
       <module name="kafkaweb" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="Protoful" target="1.8" />

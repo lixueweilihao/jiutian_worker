@@ -51,7 +51,6 @@ public class FlinkLoginFail {
         DataStream<LoginWarning> loginFailDataStream = patternStream.select((Map<String, List<LoginEvent>> pattern) -> {
             List<LoginEvent> first = pattern.get("begin");
             List<LoginEvent> second = pattern.get("next");
-
             return new LoginWarning(second.get(0).getUserId(),second.get(0).getIp(), second.get(0).getType());
 //            return new LoginWarning(first.get(0).getUserId(),first.get(0).getIp(), first.get(0).getType());
         });

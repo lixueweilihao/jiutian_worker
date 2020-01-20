@@ -1,4 +1,4 @@
-package person;
+package org.jiutian.person;
 
 /**
  * Created by youtNa on 2017/5/22.
