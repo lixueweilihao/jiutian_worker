@@ -6,17 +6,18 @@
     <file url="file://$PROJECT_DIR$/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-ai" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-bigdata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-leetcode" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-maven" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-maven/RomanceMoudle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-maven/SparkMoulde" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-maven/dist" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-others" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-scala" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/leetcode" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webSocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webSocket/demo1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webSocket/kafka-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/webSocket/kafka-websocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-webSocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-webSocket/demo1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-webSocket/kafka-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-webSocket/kafka-websocket" charset="UTF-8" />
   </component>
 </project>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../../DTC/workspace/java/dtc_java/WebSocketExplorer/kafka-web" />
-    <file type="web" url="file://$PROJECT_DIR$/webSocket" />
+    <file type="web" url="file://$PROJECT_DIR$/jiutian-webSocket" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/Kafka-Test/pom.xml" />
         <option value="$PROJECT_DIR$/Spark/pom.xml" />
         <option value="$PROJECT_DIR$/flink/pom.xml" />
+        <option value="$PROJECT_DIR$/java/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/cep-monitoring/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/flink-examples-streaming/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/pom.xml" />

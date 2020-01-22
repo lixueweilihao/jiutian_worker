@@ -11,9 +11,6 @@
 
     <artifactId>jiutian-bigdata</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>flink-demo</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>org.elasticsearch</groupId>

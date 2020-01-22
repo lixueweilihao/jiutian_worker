@@ -1,17 +1,17 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="kafka-websocket:war exploded">
-    <output-path>$PROJECT_DIR$/jiutian-webSocket/kafka-websocket/target/kafka-websocket</output-path>
+  <artifact type="exploded-war" name="kafka-web:war exploded">
+    <output-path>$PROJECT_DIR$/jiutian-webSocket/kafka-web/target/kafka-web</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>kafka-websocket</module>
+        <module>kafka-web</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="kafka-websocket" />
+          <element id="module-output" name="kafka-web" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.kafka:kafka_2.9.2:0.8.1.1" />
@@ -128,9 +128,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/jiutian-webSocket/kafka-websocket/target/kafka-websocket/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/jiutian-webSocket/kafka-web/target/kafka-web/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="kafka-websocket/web/Web" />
+      <element id="javaee-facet-resources" facet="kafka-web/web/Web" />
     </root>
   </artifact>
 </component>
