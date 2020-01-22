@@ -14,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/jiutian-maven/dist" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-others" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-rpc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-scala" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-webSocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-webSocket/demo1" charset="UTF-8" />

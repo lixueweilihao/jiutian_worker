@@ -6,25 +6,26 @@
       <module fileurl="file://$PROJECT_DIR$/Protoful/Protoful.iml" filepath="$PROJECT_DIR$/Protoful/Protoful.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-maven/RomanceMoudle/RomanceMoudle.iml" filepath="$PROJECT_DIR$/jiutian-maven/RomanceMoudle/RomanceMoudle.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-maven/SparkMoulde/SparkMoulde.iml" filepath="$PROJECT_DIR$/jiutian-maven/SparkMoulde/SparkMoulde.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-rpc/api/api.iml" filepath="$PROJECT_DIR$/simple-rpc/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-rpc/simple-rpc/api/api.iml" filepath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-maven/dist/assembly.iml" filepath="$PROJECT_DIR$/jiutian-maven/dist/assembly.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-rpc/client/client.iml" filepath="$PROJECT_DIR$/simple-rpc/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/client.iml" filepath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-webSocket/demo1/demo1.iml" filepath="$PROJECT_DIR$/jiutian-webSocket/demo1/demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-rpc/dist1/dist1.iml" filepath="$PROJECT_DIR$/simple-rpc/dist1/dist1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-rpc/simple-rpc/dist1/dist1.iml" filepath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/dist1/dist1.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" filepath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" filepath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-leetcode/jiutian-leetcode.iml" filepath="$PROJECT_DIR$/jiutian-leetcode/jiutian-leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-maven/jiutian-maven.iml" filepath="$PROJECT_DIR$/jiutian-maven/jiutian-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-netty/jiutian-netty.iml" filepath="$PROJECT_DIR$/jiutian-netty/jiutian-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-others/jiutian-others.iml" filepath="$PROJECT_DIR$/jiutian-others/jiutian-others.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-rpc/jiutian-rpc.iml" filepath="$PROJECT_DIR$/jiutian-rpc/jiutian-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-scala/jiutian-scala.iml" filepath="$PROJECT_DIR$/jiutian-scala/jiutian-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-webSocket/webSocket.iml" filepath="$PROJECT_DIR$/jiutian-webSocket/webSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian_worker.iml" filepath="$PROJECT_DIR$/jiutian_worker.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-webSocket/kafka-web/kafka-web.iml" filepath="$PROJECT_DIR$/jiutian-webSocket/kafka-web/kafka-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jiutian-webSocket/kafka-websocket/kafka-websocket.iml" filepath="$PROJECT_DIR$/jiutian-webSocket/kafka-websocket/kafka-websocket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-rpc/rpc-frame/rpc-frame.iml" filepath="$PROJECT_DIR$/simple-rpc/rpc-frame/rpc-frame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-rpc/server/server.iml" filepath="$PROJECT_DIR$/simple-rpc/server/server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-rpc/simple-rpc.iml" filepath="$PROJECT_DIR$/simple-rpc/simple-rpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jiutian-webSocket/webSocket.iml" filepath="$PROJECT_DIR$/jiutian-webSocket/webSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-rpc/simple-rpc/rpc-frame/rpc-frame.iml" filepath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/rpc-frame/rpc-frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-rpc/simple-rpc/server/server.iml" filepath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiutian-rpc/simple-rpc/simple-rpc.iml" filepath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/simple-rpc.iml" />
     </modules>
   </component>
 </project>

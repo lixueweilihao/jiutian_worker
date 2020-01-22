@@ -16,6 +16,7 @@
         <module>jiutian-webSocket</module>
         <module>simple-rpc</module>
         <module>jiutian-netty</module>
+        <module>jiutian-rpc</module>
     </modules>
     <properties>
         <kafka.version>0.8.2.2</kafka.version>
