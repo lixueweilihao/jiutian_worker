@@ -11,6 +11,16 @@
 
     <artifactId>jiutian-bigdata</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>flink</module>
+        <module>hadoop</module>
+        <module>hbase</module>
+        <module>ES</module>
+        <module>hive</module>
+        <module>kafka</module>
+        <module>storm</module>
+        <module>flume</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.elasticsearch</groupId>

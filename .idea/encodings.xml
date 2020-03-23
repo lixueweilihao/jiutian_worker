@@ -3,9 +3,28 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Protoful" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bigdata-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial-copy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-tutorial/atgui-flink" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_exec" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-ai" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-bigdata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata/ES" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata/flink" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata/flume" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata/hadoop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata/hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata/hive" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-bigdata/storm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-leetcode" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-maven" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle" charset="UTF-8" />
@@ -15,6 +34,11 @@
     <file url="file://$PROJECT_DIR$/jiutian-netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-others" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc/sb-rpc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc/sb-rpc-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc/sb-rpc-core-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc/sb-rpc-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-scala" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-webSocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiutian-webSocket/demo1" charset="UTF-8" />

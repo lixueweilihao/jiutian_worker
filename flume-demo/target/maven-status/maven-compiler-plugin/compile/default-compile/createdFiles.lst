@@ -1,0 +1,10 @@
+com/dtc/flume/source/metrics/SQLSource$ChannelWriter.class
+com/dtc/flume/source/metrics/SQLSource.class
+com/dtc/flume/source/metrics/SQLSourceHelper$1.class
+com/dtc/flume/source/metrics/SQLServerCustomDialect.class
+com/dtc/flume/source/metrics/SQLSource$1.class
+com/dtc/flume/source/metrics/HibernateHelper.class
+com/dtc/flume/source/metrics/SqlSourceCounter.class
+com/dtc/flume/source/metrics/SqlSourceCounterMBean.class
+com/dtc/flume/sink/UDPEventSink.class
+com/dtc/flume/source/metrics/SQLSourceHelper.class

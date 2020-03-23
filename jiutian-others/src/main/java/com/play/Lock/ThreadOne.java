@@ -15,11 +15,11 @@ public class ThreadOne implements Runnable {
                 System.out.println(tName + ":" + i);
             }
         } catch (Exception e) {
-            lt.lock.unlock();
+
             System.out.println(tName + "出错了！！！");
         }
-//        finally {
-//            //lock.unlock();
-//        }
+        finally {
+            lt.lock.unlock();
+        }
     }
 }

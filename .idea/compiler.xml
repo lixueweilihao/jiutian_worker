@@ -6,69 +6,116 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kafka-web" />
-        <module name="SparkMoulde" />
-        <module name="assembly" />
-        <module name="dist" />
-        <module name="jiutian-ai" />
-        <module name="jiutian-leetcode" />
-        <module name="Protoful" />
-        <module name="kafka-websocket" />
-        <module name="jiutian-rpc" />
-        <module name="RomanceMoudle" />
-        <module name="jiutian-netty" />
-        <module name="jiutian-scala" />
-        <module name="HiveMoudle" />
-        <module name="demo1" />
-        <module name="jiutian-others" />
-      </profile>
-      <profile name="Annotation profile for dist1" enabled="true">
-        <sourceOutputDir name="../../../simple-rpc/dist1/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../simple-rpc/dist1/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="dist1" />
-      </profile>
-      <profile name="Annotation profile for server" enabled="true">
-        <sourceOutputDir name="../../../simple-rpc/server/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../simple-rpc/server/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="server" />
-      </profile>
-      <profile name="Annotation profile for api" enabled="true">
-        <sourceOutputDir name="../../../simple-rpc/api/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../simple-rpc/api/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="api" />
-      </profile>
-      <profile name="Annotation profile for client" enabled="true">
-        <sourceOutputDir name="../../../simple-rpc/client/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../simple-rpc/client/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="client" />
+        <module name="jiutian-scala" />
+        <module name="bigdata-zookeeper" />
+        <module name="kafka-web" />
+        <module name="flume-demo" />
+        <module name="sb-rpc-core-starter" />
+        <module name="jiutian-ai" />
+        <module name="sb-rpc-provider" />
+        <module name="sb-rpc-consumer" />
+        <module name="hbase" />
+        <module name="rpc-frame" />
+        <module name="dist1" />
+        <module name="jiutian-rpc" />
+        <module name="jiutian-leetcode" />
+        <module name="jiutian-others" />
+        <module name="sb-rpc-api" />
+        <module name="Protoful" />
+        <module name="hadoop" />
+        <module name="java_exec" />
+        <module name="flume" />
+        <module name="kafka-websocket" />
+        <module name="hive" />
+        <module name="RomanceMoudle" />
+        <module name="demo1" />
+        <module name="api" />
+        <module name="flume-demo (1)" />
+        <module name="assembly" />
+        <module name="server" />
+        <module name="flink" />
+        <module name="storm" />
+        <module name="ES" />
+        <module name="kafka" />
+        <module name="SparkMoulde" />
+        <module name="HiveMoudle" />
+        <module name="jiutian-netty" />
+        <module name="dist" />
+      </profile>
+      <profile name="Annotation profile for atgui-flink" enabled="true">
+        <sourceOutputDir name="../../flink-tutorial-copy/atgui-flink/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../flink-tutorial-copy/atgui-flink/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="atgui-flink" />
+      </profile>
+      <profile name="Annotation profile for two-streams-json" enabled="true">
+        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/two-streams-json/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/two-streams-json/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="two-streams-json" />
+      </profile>
+      <profile name="Annotation profile for Hot-Items-Analysis" enabled="true">
+        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Hot-Items-Analysis/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Hot-Items-Analysis/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Hot-Items-Analysis" />
+      </profile>
+      <profile name="Annotation profile for Network-Traffic-Analysis" enabled="true">
+        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Network-Traffic-Analysis/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Network-Traffic-Analysis/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Network-Traffic-Analysis" />
+      </profile>
+      <profile name="Annotation profile for Login-Fail-Detect" enabled="true">
+        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Login-Fail-Detect/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Login-Fail-Detect/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Login-Fail-Detect" />
+      </profile>
+      <profile name="Annotation profile for Order-Timeout-Detect" enabled="true">
+        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Order-Timeout-Detect/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Order-Timeout-Detect/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Order-Timeout-Detect" />
       </profile>
       <profile name="Annotation profile for test" enabled="true">
-        <sourceOutputDir name="../../../simple-rpc/rpc-frame/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../simple-rpc/rpc-frame/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../../flink-tutorial-copy/Flink-Ecommerce/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../flink-tutorial-copy/Flink-Ecommerce/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rpc-frame" />
+        <module name="Flink-Ecommerce" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="api" target="1.5" />
       <module name="assembly" target="1.8" />
+      <module name="atgui-flink" target="1.8" />
+      <module name="bigdata-zookeeper" target="1.8" />
       <module name="cep-monitoring" target="1.5" />
       <module name="client" target="1.5" />
       <module name="demo1" target="1.8" />
       <module name="dist" target="1.8" />
       <module name="dist1" target="1.5" />
       <module name="Elasticsearch" target="1.8" />
+      <module name="ES" target="1.8" />
       <module name="flink" target="1.8" />
       <module name="flink-demo" target="1.8" />
+      <module name="Flink-Ecommerce" target="1.8" />
       <module name="flink-examples-streaming" target="1.5" />
+      <module name="flink-tutorial" target="1.8" />
+      <module name="flume" target="1.8" />
+      <module name="flume-demo" target="1.8" />
+      <module name="flume-demo (1)" target="1.8" />
+      <module name="flume-demo (2)" target="1.8" />
+      <module name="hadoop" target="1.8" />
+      <module name="hbase" target="1.8" />
       <module name="HDFS_TEST" target="1.8" />
+      <module name="hive" target="1.8" />
       <module name="HiveMoudle" target="1.8" />
+      <module name="Hot-Items-Analysis" target="1.8" />
       <module name="HttpClient" target="1.8" />
       <module name="java" target="1.8" />
+      <module name="java_exec" target="1.8" />
       <module name="jiutian-ai" target="1.8" />
       <module name="jiutian-bigdata" target="1.8" />
       <module name="jiutian-leetcode" target="1.8" />
@@ -79,18 +126,39 @@
       <module name="jiutian-scala" target="1.8" />
       <module name="jiutian-webSocket" target="1.8" />
       <module name="jiutian_worker" target="1.8" />
+      <module name="kafka" target="1.8" />
       <module name="Kafka-Test" target="1.8" />
       <module name="kafka-web" target="1.8" />
       <module name="kafka-websocket" target="1.8" />
       <module name="kafkaweb" target="1.8" />
+      <module name="Login-Fail-Detect" target="1.8" />
+      <module name="Network-Traffic-Analysis" target="1.8" />
+      <module name="Order-Timeout-Detect" target="1.8" />
       <module name="Protoful" target="1.8" />
       <module name="RomanceMoudle" target="1.8" />
       <module name="rpc-frame" target="1.5" />
+      <module name="sb-rpc" target="1.8" />
+      <module name="sb-rpc-api" target="1.8" />
+      <module name="sb-rpc-consumer" target="1.8" />
+      <module name="sb-rpc-core-starter" target="1.8" />
+      <module name="sb-rpc-provider" target="1.8" />
       <module name="server" target="8" />
       <module name="simple-rpc" target="1.5" />
       <module name="Spark" target="1.8" />
       <module name="SparkMoulde" target="1.8" />
+      <module name="storm" target="1.8" />
+      <module name="two-streams-json" target="1.8" />
+      <module name="User-Behavior-Analysis" target="1.8" />
       <module name="websocket" target="1.5" />
+      <module name="webSocket" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sb-rpc-api" options="-parameters" />
+      <module name="sb-rpc-consumer" options="-parameters" />
+      <module name="sb-rpc-core-starter" options="-parameters" />
+      <module name="sb-rpc-provider" options="-parameters" />
+    </option>
   </component>
 </project>
