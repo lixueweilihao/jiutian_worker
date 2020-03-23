@@ -10,783 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c713e1-78f4-4fe3-8361-a7939405eaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_9_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_29_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_auth_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_configuration_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_core_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_sdk_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_logging_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_serialization_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_unsafe_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/bigdata-zookeeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CountDownLatch/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CountDownLatch/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CountDownLatch/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CountDownLatch/Parallellimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CountDownLatch/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/DistributedClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/DistributedServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/ZookeeperClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/com/learn/zookeeper/fenbushisuo/Locker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/com/learn/zookeeper/fenbushisuo/ZkLocker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/com/learn/zookeeper/fenbushisuo/ZkLockerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/CuratorHelloworld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/CuratorWatcher1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/CuratorWatcher2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/CuratorWatcher3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/CuratorZookeeperClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/DistributedIdQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/DistributedQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/DistributedQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/AppClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/AppServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/DistributedClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/DistributedClientMy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/Elector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/ElectorRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/ZookeeperLockCopA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/ZookeeperLockCopyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/lockZkA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/lockZkB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/TestingServer_Sample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/ZkDockerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/ZookeeperDistributedQueueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/ZookeeperLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/testD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/zkServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/Flink-Ecommerce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/resources/UserBehavior.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/resources/apachetest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/resources/pvlocation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ApacheLogAnalysis.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ChannelStatistic.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ChannelStatisticNonKey.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/EsTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/HotCats.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/KafkaProducerUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/OrderTimeout.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/OrderTimeoutWithoutCep.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/PvLocationToES.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ScalaFlinkLoginFail.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ScalaFlinkLoginFailWithoutCep.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ScalaHotItems.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ScalaHotItemsWithoutKafka.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/SocketWindowWordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/StreamJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/TwoStreamsJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/UserBehaviorPv.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/UserBehaviorUv.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/commons.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/Hot-Items-Analysis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/src/main/resources/UserBehavior.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/src/main/scala/HotItems.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/src/main/scala/UserBehaviorKafkaProducer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/src/main/scala/test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/Login-Fail-Detect.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/src/main/scala/LoginFail.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/Network-Traffic-Analysis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/src/main/resources/apachetest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/src/main/scala/TrafficAnalysis.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/Order-Timeout-Detect.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/src/main/scala/OrderTimeout.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/src/main/scala/OrderTimeoutWithoutCep.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/User-Behavior-Analysis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/src/main/scala/TwoStreamsJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/two-streams-json.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/atgui-flink.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CEPExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/ExpiringState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/FirstExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/FlinkLoginFail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/HotItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/HourlyTips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/LongRides.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/LongRidesWithoutCep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/NearestTaxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/NearestTaxiWithCleanup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/OngoingRides.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/PopularPlacesToES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/RideCleansing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/RidesAndFares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/SocketWindowWordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/TaxiQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/datatypes/TaxiFare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/datatypes/TaxiRide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/entity/Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/entity/LoginEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/entity/LoginWarning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/entity/MonitoringEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/entity/TemperatureEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/sources/CheckpointedTaxiFareSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/sources/CheckpointedTaxiRideSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/sources/TaxiFareSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/sources/TaxiRideSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/utils/GeoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/utils/ProjectBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources/UserBehavior.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources/nycTaxiFares.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources/nycTaxiRides.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/ApacheLogAnalysis.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/HotCats.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/KafkaProducerUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/OrderTimeout.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/ScalaFlinkLoginFail.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/ScalaFlinkLoginFailWithoutCep.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/ScalaHotItems.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/ScalaHotItemsWithoutKafka.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/StreamJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/scala/WatermarkTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/技术点.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/ASF20thAnniversary.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/api-stack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/atcount.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/atguigu.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/atguigu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/balls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/batchexecution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/bounded-unbounded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/cep1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/cep6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/ckpt1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/ckpt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/ckpt3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/ckpt4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/ckpt5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/ckpt6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/discarding.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/dot-example.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/dot-example.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/dot-example1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/dot-example1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/event_ingestion_processing_time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/event_ingestion_processing_time.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/eventtime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/fixedwindowsbatch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/fixedwindowsmicrobatch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/fixedwindowsstreaming.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/fixedwindowsstreamingpartial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/flatmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/flink-header-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/flink-header-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/flink-home-graphic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/flinkvsother.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/globalwindows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/groupbykey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/inorderdata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/jobgraph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/keyby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/lambdaarch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/operatorschains.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/outoforderexample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/outorderdata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/parallel_dataflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/parallel_dataflow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/pardo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/processes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/processes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/program_dataflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/program_dataflow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/quickstart1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/quickstart2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/quickstart3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/quickstart4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/quickstart5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/quickstart6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/quickstart7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/session-windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/session-windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/sessionsretract.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/shujumoxing1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/shujumoxing2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/sliding-windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/sliding-windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/slot_sharing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/slot_sharing.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/slots_parallelism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/slots_parallelism.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/sparkstreamingvsflink1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/sparkstreamingvsflink2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/split.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/starwars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/statevsunstate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/stream_watermark_in_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/stream_watermark_in_order.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/stream_watermark_out_of_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/stream_watermark_out_of_order.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/streaming-flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/tasks_slots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/tasks_slots.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/timedomainskew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/tumbling-windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/tumbling-windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/twostreamsjoin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/union.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/usecases-eventdrivenapps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/windowassignment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/windowmerging.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/windowpattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/images/电商用户行为数据分析9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/flink-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.1 为什么要学习 Apache Flink？.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.2 Flink基本概念.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.3 Flink 安装部署、环境配置及运行应用程序.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.4 DataStream API编程.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.5 客户端操作.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.6 Window &amp; Time.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.7 状态管理与容错机制.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.8 Flink Table API 编程.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/1.9 Flink SQL 编程.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/2.1 Flink Checkpoint-轻量级分布式快照.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/2.2 Flink Runtime 核心机制剖析.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/2.3 Flink Time 深度解析.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/2.4 Flink on Yarn:K8S原理剖析及实践.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/2.5 Flink 数据类型与序列化.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/Flink流式处理-第一章.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/Flink流式处理-第三章.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/The dataflow model.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/参考资料/参考资料.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/Flink-CEP.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/Flink-CEP.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/Flink基础讲解.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/TopNHotItems数据流图.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/.asciidoctor/diagram/dot-example.svg.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/.asciidoctor/diagram/dot-example1.svg.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap1.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap10.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap2.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap3.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap4.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap5.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap6.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap7.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap8.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/chap9.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/ASF20thAnniversary.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/api-stack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/atcount.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/atguigu.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/atguigu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/balls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/batchexecution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/bounded-unbounded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/cep1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/cep6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/ckpt1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/ckpt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/ckpt3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/ckpt4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/ckpt5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/ckpt6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/discarding.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/dot-example.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/dot-example.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/dot-example1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/dot-example1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/event_ingestion_processing_time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/event_ingestion_processing_time.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/eventtime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/fixedwindowsbatch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/fixedwindowsmicrobatch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/fixedwindowsstreaming.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/fixedwindowsstreamingpartial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/flatmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/flink-header-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/flink-header-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/flink-home-graphic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/flinkvsother.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/globalwindows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/groupbykey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/inorderdata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/jobgraph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/keyby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/lambdaarch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/operatorschains.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/outoforderexample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/outorderdata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/parallel_dataflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/parallel_dataflow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/pardo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/processes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/processes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/program_dataflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/program_dataflow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/quickstart1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/quickstart2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/quickstart3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/quickstart4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/quickstart5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/quickstart6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/quickstart7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/session-windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/session-windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/sessionsretract.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/shujumoxing1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/shujumoxing2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/sliding-windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/sliding-windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/slot_sharing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/slot_sharing.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/slots_parallelism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/slots_parallelism.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0201.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0202.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0203.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0204.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0205.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0206.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0207.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0208.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0209.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0210.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0301.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0302.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0303.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0304.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0305.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0306.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0307.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0308.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0309.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0311.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0312.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0313.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0314.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0315.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0316.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0317.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0318.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0320.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0321.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0322.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0323.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0324.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0325.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/spaf_0326.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/sparkstreamingvsflink1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/sparkstreamingvsflink2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/split.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/starwars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/statevsunstate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/stream_watermark_in_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/stream_watermark_in_order.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/stream_watermark_out_of_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/stream_watermark_out_of_order.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/streaming-flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/tasks_slots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/tasks_slots.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/timedomainskew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/tumbling-windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/tumbling-windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/twostreamsjoin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/union.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/usecases-eventdrivenapps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/windowassignment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/windowmerging.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/windowpattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/images/电商用户行为数据分析9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/index.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/尚硅谷Flink教程.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/尚硅谷Flink教程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/尚硅谷Flink教程.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/ZuoYuan/尚硅谷Flink教程.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/flink上.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/flink下.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/双流Join.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/如何计算实时热门商品.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/如何计算热门商品(Scala版本).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/实时热门商品.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/尚硅谷大数据技术之电商用户行为数据分析.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/电商用户行为数据分析.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-tutorial/课程笔记/网络攻击报警.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flume-demo/flume-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_exec/java_exec.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_exec/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_exec/src/main/java/xianchengchi/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/ES.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/flink.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/MySourceEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/SourceEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/TestSourceEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flume/flume.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flume/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/hadoop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/three/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/three/ConnectionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/three/MyProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/three/MyProtocolImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/three/RPCServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hbase/hbase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hbase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/hive.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/kafka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/noobjuesrlogaction.avro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/storm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/other/LogicalProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/other/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/线程池/ScheduledThreadPoolExecutor/ScheduledTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/线程池/ScheduledThreadPoolExecutor/ScheduledThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/线程池/ScheduledThreadPoolExecutor/WorkerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kafka_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/kafka_web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kafka_websocket_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/kafka_websocket_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/resources/UserBehavior.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_52.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_42_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_common_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_common_1_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_core_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_core_1_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_management_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_management_1_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_5_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protoful/Protoful.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Protoful/Protoful.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/PersonProbuf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/demo/test/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/ESConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/ESConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/EmployeeCRUDApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/EmployeeCRUDApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/ExecEs.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/ExecEs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/StudentInsertDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/StudentInsertDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/StudentInsertDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/StudentInsertDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/UtilsEs.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/UtilsEs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/com/lh/test/Elasticsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/test/Elasticsearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/com/lh/test/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/test/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/com/lh/test/ObjectMapperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/test/ObjectMapperFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/com/lh/test/elasticsearch.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/test/elasticsearch.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/com/lh/test/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/test/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/elasticsearch/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/src/main/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/ReadFromKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/ReadFromKafka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/TansExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/TansExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/WatermarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/WatermarkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/WriteIntoKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/WriteIntoKafka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/WriterHdfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/WriterHdfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/CepEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/FlinkLoginFail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/FlinkLoginFail.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/FlinkLoginFail.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/LoginEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/LoginEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/LoginWarning.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/LoginWarning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/ExpectResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/ExpectResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/HttpClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/HttpClientImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/PoolingHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/PoolingHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/SinkToOpentsdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/SinkToOpentsdb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/Struct.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/Struct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/builder/DataFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/builder/DataFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/builder/Metric.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/builder/Metric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/builder/MetricBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/builder/MetricBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/builder/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/builder/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/request/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/request/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/request/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/request/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/request/QueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/request/QueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/request/SubQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/request/SubQueries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/response/ErrorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/response/ErrorDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/response/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/response/SimpleHttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/response/SimpleHttpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/util/Aggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/util/Aggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/opentsdb/client/util/Preconditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/client/util/Preconditions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/LocalWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/LocalWordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/WordCountJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/WordCountJob.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/akka/Master.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/akka/Master.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/akka/Worker.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/akka/Worker.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/Master1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/fenbushi/akka/demo/V1/Master1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/fenbushi/akka/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/Worker1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/fenbushi/akka/demo/V1/Worker1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/test/demo/Master.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/fenbushi/akka/demo/V2/Master.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/test/demo/RemoteMessage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/fenbushi/akka/demo/V2/RemoteMessage.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/test/demo/Worker.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/fenbushi/akka/demo/V2/Worker.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/test/demo/WorkerA.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/fenbushi/akka/demo/V2/WorkerA.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/test/demo/WorkerInfo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/fenbushi/akka/demo/V2/WorkerInfo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/sql/sql_test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/flink/sql/sql_test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/Client.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/Client.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/ExpectResponse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/ExpectResponse.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/HttpClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/HttpClient.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/HttpClientImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/HttpClientImpl.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/PoolingHttpClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/PoolingHttpClient.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/builder/DataFormatException.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/builder/DataFormatException.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/builder/Metric.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/builder/Metric.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/builder/MetricBuilder.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/builder/MetricBuilder.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/builder/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/builder/Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/request/Filter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/request/Filter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/request/Query.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/request/Query.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/request/QueryBuilder.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/request/QueryBuilder.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/request/SubQueries.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/request/SubQueries.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/response/ErrorDetail.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/response/ErrorDetail.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/response/Response.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/response/Response.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/response/SimpleHttpResponse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/response/SimpleHttpResponse.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/opentsdb/client/utils/Preconditions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/opentsdb/client/utils/Preconditions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/water/demo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/scala/water/demo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/HDFSMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/HDFSMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/HdfsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/HdfsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/MyMaxTempApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/MyMaxTempApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/MyMaxTempMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/MyMaxTempMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/MyMaxTempReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/MyMaxTempReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/MyBizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/MyBizable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/RPCClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/RPCServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/RPCServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/hello/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/hello/HelloWorldService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/hello/HelloWorldServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/hello/HelloWorldServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/hello/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/hello/MyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/hello/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/hello/MyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/login/LoginClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/login/LoginClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/login/LoginServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/login/LoginServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/login/LoginServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/login/LoginServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/login/LoginServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/com/rpc/login/LoginServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/hdfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/hdfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/mapreducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/mapreducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hadoop/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hbase/java/HbaseMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hbase/java/HbaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/src/main/java/hadoop/hbase/java/HbaseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/GetToDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/GetToDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/HiveClientUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/HiveDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveJdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/HiveJdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/HiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/JDBCHive.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/JDBCHive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/OracleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/OracleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/SQLConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/SQLConn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/TestOracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/TestOracle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/TestOraclemode.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/hive/TestOraclemode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/Bytebuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/Bytebuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/ClassLoaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/ClassLoaderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/ConfigurationPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/ConfigurationPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/FileReadFromHdfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/FileReadFromHdfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/FormatDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/FormatDateTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/HdfsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/HdfsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/HiveT.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/HiveT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/Incream.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/Incream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/MyMaxTempApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/MyMaxTempApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/MyMaxTempMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/MyMaxTempMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/MyMaxTempReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/MyMaxTempReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/Split.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/Split.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/WCMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/WCMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/WCReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/WCReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/WordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/WordCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/WordCountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/core-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/core-default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/hadoop-loaclhost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/hadoop-loaclhost.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/mapreduce/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java/hive/mapreduce/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/ES/EsProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/ES/EsProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/ES/ProducerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/ES/ProducerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/abc.avro" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CountDownLatch/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/abc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/CidPartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/CidPartitioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/KafkaConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/KafkaConsumerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/MetricEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/MetricEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/MyProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/MyProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/ProducerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/ProducerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka08/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka10/ConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka10/ConsumerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka10/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka10/ProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka10/SimplePartitioner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka10/SimplePartitioner2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka_test/ConuserT.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka_test/ConuserT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka_test/Kafka10Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka_test/Kafka10Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/kafka_test/Kafka10Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka_test/Kafka10Source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/noobjuesrlogaction.avro" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/abc.avro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/one/JavaKafkaSimpleConsumerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/one/JavaKafkaSimpleConsumerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/one/JavaKafkaSimpleConsumerAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/one/JavaKafkaSimpleConsumerAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/one/KafkaBrokerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/one/KafkaBrokerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/one/KafkaTopicPartitionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/one/KafkaTopicPartitionInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/two/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/two/KafkaSimpleConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/KafkaSimpleConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/two/KafkaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/KafkaUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/two/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/simple/Consumer/two/PartitionMsgTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/PartitionMsgTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/singleton/ConsumerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/singleton/ConsumerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/singleton/ConuserMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/singleton/ConuserMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/singleton/HandlerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/singleton/HandlerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/singleton/KafkaProducerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/singleton/KafkaProducerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/kafka/singleton/Kafka_Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/singleton/Kafka_Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/CreateSentenceSpout.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/CreateSentenceSpout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/FinalBolt.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/FinalBolt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/MessageScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/MessageScheme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/SenqueceBolt.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/SenqueceBolt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/ShowBolt.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/ShowBolt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/SplitWordBolt.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/SplitWordBolt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/StormKafkaTopo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/StormKafkaTopo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/SumWordBolt.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/SumWordBolt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/TopologyWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/TopologyWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/src/main/java/strom/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/src/main/java/strom/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-leetcode/jiutian-leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-leetcode/jiutian-leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-netty/jiutian-netty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-netty/jiutian-netty.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/jiutian-others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/jiutian-others.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/ThreadOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/ThreadOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/ThreadTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/ThreadTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-rpc/jiutian-rpc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/jiutian-rpc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/api/api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/dist1/dist1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/dist1/dist1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/rpc-frame/rpc-frame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/rpc-frame/rpc-frame.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/server/server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/simple-rpc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/simple-rpc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-webSocket/demo1/demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-webSocket/demo1/demo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-webSocket/kafka-web/kafka-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-webSocket/kafka-web/kafka-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-webSocket/kafka-websocket/kafka-websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-webSocket/kafka-websocket/kafka-websocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-webSocket/webSocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-webSocket/webSocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian_worker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian_worker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/Flink-Ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/Flink-Ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/Hot-Items-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/Hot-Items-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/Login-Fail-Detect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/Login-Fail-Detect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/Network-Traffic-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/Network-Traffic-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/Order-Timeout-Detect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/Order-Timeout-Detect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/User-Behavior-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/User-Behavior-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/two-streams-json.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/two-streams-json.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/atgui-flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/atgui-flink.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/flink-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/flink-tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-rpc/sb-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/sb-rpc/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -867,6 +107,15 @@
     <ignored path="$PROJECT_DIR$/jiutian-bigdata/hive/target/" />
     <ignored path="$PROJECT_DIR$/jiutian-bigdata/storm/target/" />
     <ignored path="$PROJECT_DIR$/jiutian-bigdata/flume/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/atgui-flink/target/" />
+    <ignored path="$PROJECT_DIR$/flink-tutorial/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -883,49 +132,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/CepEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/hadoop/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/hbase/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/ES/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/hive/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -935,9 +141,76 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flume/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="381" column="18" selection-start-line="381" selection-start-column="18" selection-end-line="381" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-rpc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-others/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2.jar!/org/apache/flink/api/java/typeutils/runtime/KryoRegistration.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -997,7 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/hello/HelloWorldService.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/hello/MyClient.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/three/MyProtocolImpl.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/three/ConnectionStatus.java" />
@@ -1015,7 +287,6 @@
         <option value="$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/other/LogicalProblem.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/JDBCHive.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveClientUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/java_exec/src/main/java/ThreadPoolTest.java" />
         <option value="$PROJECT_DIR$/java_exec/src/main/java/xianchengchi/ThreadPoolTest.java" />
         <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/ThreadOne.java" />
@@ -1048,6 +319,8 @@
         <option value="$PROJECT_DIR$/flink-tutorial-copy/UserBehaviorAnalysis/pom.xml" />
         <option value="$PROJECT_DIR$/flink-tutorial-copy/User-Behavior-Analysis/pom.xml" />
         <option value="$PROJECT_DIR$/flink-tutorial-copy/pom.xml" />
+        <option value="$PROJECT_DIR$/jiutian-rpc/sb-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1084,11 +357,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="flume-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="flume-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -1115,53 +388,6 @@
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="flume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1202,11 +428,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/resources" />
       <recent name="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java" />
       <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main" />
       <recent name="$PROJECT_DIR$/flink-tutorial-copy/User-Behavior-Analysis/two-streams-json/src/main" />
       <recent name="$PROJECT_DIR$/flink-tutorial-copy/User-Behavior-Analysis/Order-Timeout-Detect/src/main" />
-      <recent name="$PROJECT_DIR$/flink-tutorial-copy/User-Behavior-Analysis/Network-Traffic-Analysis/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -1239,7 +465,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DistributedClient">
+  <component name="RunManager" selected="Application.HotItems">
     <configuration name="AppClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zookeeper.HA.AppClient" />
       <module name="bigdata-zookeeper" />
@@ -1279,12 +505,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lockZkA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zookeeper.HA.lockZkA" />
-      <module name="bigdata-zookeeper" />
+    <configuration name="HotItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotitmes.HotItems" />
+      <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zookeeper.HA.*" />
+          <option name="PATTERN" value="com.hotitmes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1396,11 +622,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotItems" />
         <item itemvalue="Application.DistributedClient" />
         <item itemvalue="Application.AppClient" />
         <item itemvalue="Application.AppServer" />
         <item itemvalue="Application.lockZkB" />
-        <item itemvalue="Application.lockZkA" />
       </list>
     </recent_temporary>
   </component>
@@ -1512,12 +738,12 @@
       <workItem from="1583111529157" duration="1131000" />
       <workItem from="1583890508351" duration="556000" />
       <workItem from="1584081951303" duration="6604000" />
-      <workItem from="1584583791893" duration="18043000" />
+      <workItem from="1584583791893" duration="18631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321507000" />
+    <option name="totallyTimeSpent" value="322095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1530,6 +756,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2662407" />
       <window_info id="Designer" order="1" />
@@ -1540,7 +767,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31398964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.32331607" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.32331607" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35025907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1551,7 +778,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32928064" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.23809524" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.39716312" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3968912" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32826748" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -2170,54 +1397,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/CuratorWatcher1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/com/learn/zookeeper/fenbushisuo/ZkLocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/com/learn/zookeeper/fenbushisuo/Locker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/com/learn/zookeeper/fenbushisuo/ZkLockerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CountDownLatch/Boss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -2490,7 +1669,60 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flume/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2.jar!/org/apache/flink/api/java/typeutils/runtime/KryoRegistration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="381" column="18" selection-start-line="381" selection-start-column="18" selection-end-line="381" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-rpc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

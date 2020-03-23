@@ -19,7 +19,6 @@
         <module>sb-rpc-consumer</module>
         <module>sb-rpc-core-starter</module>
         <module>sb-rpc-provider</module>
-        <module>netty</module>
     </modules>
 
     <properties>

@@ -15,12 +15,11 @@
         <module>jiutian-maven</module>
         <module>jiutian-webSocket</module>
         <module>jiutian-netty</module>
-        <module>jiutian-rpc</module>
+<!--        <module>jiutian-rpc</module>-->
         <module>flume-demo</module>
         <module>java_exec</module>
         <module>bigdata-zookeeper</module>
-        <module>flink-tutorial-copy</module>
-        <module>flink-tutorial-copy</module>
+        <module>flink-tutorial</module>
     </modules>
     <properties>
         <kafka.version>0.8.2.2</kafka.version>

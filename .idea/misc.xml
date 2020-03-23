@@ -32,6 +32,7 @@
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/cep-monitoring/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/flink-examples-streaming/pom.xml" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jiutian-rpc/pom.xml" />
         <option value="$PROJECT_DIR$/webSocket/kafka-web/pom.xml" />
       </set>
     </option>

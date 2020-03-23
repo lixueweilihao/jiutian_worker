@@ -6,84 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client" />
-        <module name="jiutian-scala" />
-        <module name="bigdata-zookeeper" />
-        <module name="kafka-web" />
-        <module name="flume-demo" />
-        <module name="sb-rpc-core-starter" />
-        <module name="jiutian-ai" />
-        <module name="sb-rpc-provider" />
-        <module name="sb-rpc-consumer" />
-        <module name="hbase" />
-        <module name="rpc-frame" />
-        <module name="dist1" />
-        <module name="jiutian-rpc" />
-        <module name="jiutian-leetcode" />
-        <module name="jiutian-others" />
-        <module name="sb-rpc-api" />
-        <module name="Protoful" />
-        <module name="hadoop" />
         <module name="java_exec" />
-        <module name="flume" />
-        <module name="kafka-websocket" />
-        <module name="hive" />
-        <module name="RomanceMoudle" />
-        <module name="demo1" />
-        <module name="api" />
-        <module name="flume-demo (1)" />
-        <module name="assembly" />
-        <module name="server" />
-        <module name="flink" />
-        <module name="storm" />
         <module name="ES" />
+        <module name="Order-Timeout-Detect" />
+        <module name="jiutian-scala" />
+        <module name="hive" />
+        <module name="demo1" />
+        <module name="RomanceMoudle" />
+        <module name="kafka-websocket" />
+        <module name="flume" />
+        <module name="flume-demo (1)" />
+        <module name="Network-Traffic-Analysis" />
+        <module name="jiutian-others" />
+        <module name="bigdata-zookeeper" />
+        <module name="Hot-Items-Analysis" />
+        <module name="storm" />
         <module name="kafka" />
-        <module name="SparkMoulde" />
+        <module name="Login-Fail-Detect" />
+        <module name="kafka-web" />
+        <module name="assembly" />
+        <module name="two-streams-json" />
+        <module name="jiutian-leetcode" />
+        <module name="Flink-Ecommerce" />
         <module name="HiveMoudle" />
         <module name="jiutian-netty" />
-        <module name="dist" />
-      </profile>
-      <profile name="Annotation profile for atgui-flink" enabled="true">
-        <sourceOutputDir name="../../flink-tutorial-copy/atgui-flink/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../flink-tutorial-copy/atgui-flink/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
+        <module name="Protoful" />
         <module name="atgui-flink" />
-      </profile>
-      <profile name="Annotation profile for two-streams-json" enabled="true">
-        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/two-streams-json/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/two-streams-json/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="two-streams-json" />
-      </profile>
-      <profile name="Annotation profile for Hot-Items-Analysis" enabled="true">
-        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Hot-Items-Analysis/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Hot-Items-Analysis/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="Hot-Items-Analysis" />
-      </profile>
-      <profile name="Annotation profile for Network-Traffic-Analysis" enabled="true">
-        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Network-Traffic-Analysis/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Network-Traffic-Analysis/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="Network-Traffic-Analysis" />
-      </profile>
-      <profile name="Annotation profile for Login-Fail-Detect" enabled="true">
-        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Login-Fail-Detect/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Login-Fail-Detect/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="Login-Fail-Detect" />
-      </profile>
-      <profile name="Annotation profile for Order-Timeout-Detect" enabled="true">
-        <sourceOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Order-Timeout-Detect/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../flink-tutorial-copy/User-Behavior-Analysis/Order-Timeout-Detect/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="Order-Timeout-Detect" />
-      </profile>
-      <profile name="Annotation profile for test" enabled="true">
-        <sourceOutputDir name="../../flink-tutorial-copy/Flink-Ecommerce/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../flink-tutorial-copy/Flink-Ecommerce/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="Flink-Ecommerce" />
+        <module name="hadoop" />
+        <module name="flink" />
+        <module name="dist" />
+        <module name="SparkMoulde" />
+        <module name="jiutian-ai" />
+        <module name="hbase" />
+        <module name="flume-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
