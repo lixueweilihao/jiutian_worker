@@ -87,7 +87,9 @@ public class HotItems {
 			})
 			.keyBy("itemId")
 			.timeWindow(Time.minutes(60), Time.minutes(5))
+				//TODO: 第一个函数是预处理，第二个函数是实际处理函数
 			.aggregate(new CountAgg(), new WindowResultFunction())
+				//TODO:获取到窗口结束的时间
 			.keyBy("windowEnd")
 			.process(new TopNHotItems(3))
 			.print();
@@ -167,6 +169,7 @@ public class HotItems {
 	}
 
 	/** 用于输出窗口的结果 */
+	// todo 指定格式输出 ：将每个 key每个窗口聚合后的结果带上其他信息进行输出  进入的数据为Long 返回 ItemViewCount对象
 	public static class WindowResultFunction implements WindowFunction<Long, ItemViewCount, Tuple, TimeWindow> {
 
 		@Override
@@ -185,21 +188,25 @@ public class HotItems {
 	/** COUNT 统计的聚合函数实现，每出现一条记录加一 */
 	public static class CountAgg implements AggregateFunction<UserBehavior, Long, Long> {
 		// 初始化累加器
+		//创建一个数据统计的容器，提供给后续操作使用。
 		@Override
 		public Long createAccumulator() {
 			return 0L;
 		}
 		// 累加
+		//每个元素被添加进窗口的时候调用。
 		@Override
 		public Long add(UserBehavior userBehavior, Long acc) {
 			return acc + 1;
 		}
 		// 输出
+		//窗口统计事件触发时调用来返回出统计的结果。
 		@Override
 		public Long getResult(Long acc) {
 			return acc;
 		}
 		// 累加器合并
+		//只有在当窗口合并的时候调用,合并2个容器
 		@Override
 		public Long merge(Long acc1, Long acc2) {
 			return acc1 + acc2;
