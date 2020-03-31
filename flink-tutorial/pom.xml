@@ -15,6 +15,7 @@
         <module>atgui-flink</module>
         <module>Flink-Ecommerce</module>
         <module>User-Behavior-Analysis</module>
+        <module>flink-training-exercises</module>
     </modules>
 
 

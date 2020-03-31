@@ -12,8 +12,8 @@ public class ProjectBase {
     public static SinkFunction out = null;
     public static int parallelism = 1;
 
-    public final static String pathToRideData = "/Users/yuanzuo/Desktop/flink-tutorial/atguiguflink/src/main/resources/nycTaxiRides.gz";
-    public final static String pathToFareData = "/Users/yuanzuo/Desktop/flink-tutorial/atguiguflink/src/main/resources/nycTaxiFares.gz";
+    public final static String pathToRideData = "/Users/lixuewei/workspace/private/jiutian_worker/flink-tutorial/atgui-flink/src/main/resources/nycTaxiRides.gz";
+    public final static String pathToFareData = "/Users/lixuewei/workspace/private/jiutian_worker/flink-tutorial/atgui-flink/src/main/resources/nycTaxiFares.gz";
 
     public static SourceFunction<TaxiRide> rideSourceOrTest(SourceFunction<TaxiRide> source) {
         if (rides == null) {
@@ -38,7 +38,7 @@ public class ProjectBase {
 
     public static void printOrTest(org.apache.flink.streaming.api.datastream.DataStream<?> ds) {
         if (out == null) {
-            ds.print();
+            ds.print("test: ");
         } else {
             ds.addSink(out);
         }

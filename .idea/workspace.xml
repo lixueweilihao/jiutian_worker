@@ -10,15 +10,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c713e1-78f4-4fe3-8361-a7939405eaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_sql_connector_kafka_2_11_1_10_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_sql_connector_kafka_2_12_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/MarketStreamCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_cep_scala_2_11_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_common_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/lihao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ReadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ThreadRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ThreadWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/WriteData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flink/flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/flink.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/Flink-Ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/Flink-Ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/Hot-Items-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/Hot-Items-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/Login-Fail-Detect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/Login-Fail-Detect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/Network-Traffic-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/Network-Traffic-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/Order-Timeout-Detect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/Order-Timeout-Detect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/User-Behavior-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/User-Behavior-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/two-streams-json.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/two-streams-json.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/atgui-flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/atgui-flink.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/utils/ProjectBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/utils/ProjectBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/技术点.md" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/技术点.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/flink-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/flink-tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian_worker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian_worker.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/Spark/target/" />
@@ -123,108 +156,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/RideCleansing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="129" column="32" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="32" />
+            <state relative-caret-position="435">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/RidesAndFares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ScalaHotItems.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="75" column="49" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/HotItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
               <folding>
-                <element signature="e#4155#4156#0" expanded="true" />
-                <element signature="e#4186#4187#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/MarketStreamCount.java">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1506">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#3170#3474#0" expanded="true" />
-                <element signature="e#3473#3474#0" expanded="true" />
-                <element signature="e#4292#4293#0" expanded="true" />
-                <element signature="e#4350#4351#0" expanded="true" />
-                <element signature="e#4422#4423#0" expanded="true" />
-                <element signature="e#4479#4480#0" expanded="true" />
-                <element signature="e#4679#4680#0" expanded="true" />
-                <element signature="e#4744#4745#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/flink-training-exercises-master/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/functions/KeyedProcessFunction.class">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/SocketWindowWordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+            <state relative-caret-position="495">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.class">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/TaxiQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="2235">
+              <caret line="155" column="21" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+        <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/ExpiringState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="381" column="18" selection-start-line="381" selection-start-column="18" selection-end-line="381" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-rpc/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="29" column="67" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -243,18 +265,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reflect</find>
-      <find>break</find>
-      <find>break()</find>
-      <find>gson</find>
-      <find>com.google</find>
-      <find>javax.</find>
-      <find>commons-lo</find>
-      <find>commons-lang</find>
-      <find>httpc</find>
-      <find>httpco</find>
-      <find>jetty-server</find>
-      <find>geode-core</find>
       <find>httpclient</find>
       <find>storm-core</find>
       <find>zookeeper</find>
@@ -264,7 +274,6 @@
       <find>flink-core</find>
       <find>flink-common</find>
       <find>flink-clien</find>
-      <find>1.6.4</find>
       <find>flink-connect</find>
       <find>hive</find>
       <find>hbase-client</find>
@@ -273,6 +282,19 @@
       <find>webSocket</find>
       <find>akka</find>
       <find>ActorSystem</find>
+      <find>1.6.4</find>
+      <find>4661</find>
+      <find>4661,</find>
+      <find>4661,START</find>
+      <find>MapStateDescriptor</find>
+      <find>mapToGridCell</find>
+      <find>NYCEnrichment</find>
+      <find>startCell</find>
+      <find>GeoUtils.mapToGridCell</find>
+      <find>union</find>
+      <find>onTime</find>
+      <find>RichCoFlatMapFunction</find>
+      <find>onTimer</find>
     </findStrings>
     <dirStrings>
       <dir>$USER_HOME$/software/repo/org/slf4j/log4j-over-slf4j/1.6.6/log4j-over-slf4j-1.6.6.jar!/META-INF/maven/org.slf4j/log4j-over-slf4j</dir>
@@ -286,26 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/three/Client.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/three/MyProtocol.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hadoop/hadoop/com/rpc/three/RPCServer.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/MySourceEvent.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/SourceEvent.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/TestSourceEvent.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/java/cep/CepEvent.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/Master1.scala" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/Worker1.scala" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/flink/scala/flink/fenbushi/akka/demo/V1/Worker1.scala" />
-        <option value="$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/other/Main.java" />
-        <option value="$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/other/LogicalProblem.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/JDBCHive.java" />
-        <option value="$PROJECT_DIR$/jiutian-bigdata/src/main/java/hive/hive/HiveClientUtils.java" />
-        <option value="$PROJECT_DIR$/java_exec/src/main/java/ThreadPoolTest.java" />
-        <option value="$PROJECT_DIR$/java_exec/src/main/java/xianchengchi/ThreadPoolTest.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/ThreadOne.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/ThreadTwo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/lockInterruptibly/LockTest.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/线程池/ScheduledThreadPoolExecutor/WorkerThread.java" />
         <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/线程池/ScheduledThreadPoolExecutor/ScheduledThreadPoolTest.java" />
         <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/线程池/ScheduledThreadPoolExecutor/ScheduledTask.java" />
         <option value="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CountDownLatchTest.java" />
@@ -337,6 +339,26 @@
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/MarketStreamCount.java" />
         <option value="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/readme.md" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CEPExample.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/utils/ProjectBase.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/test.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/lihao.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/lihao.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/Transfor.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/datatypes/TaxiRide.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/技术点.md" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ThreadWrite.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ThreadRead.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/Run.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/WriteData.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ReadData.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/flink-training-exercises-master/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-tutorial/pom.xml" />
       </list>
     </option>
   </component>
@@ -384,10 +406,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2032" />
-    <option name="y" value="180" />
-    <option name="width" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -396,9 +416,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,52 +427,28 @@
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="Flink-Ecommerce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hotitmes" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,7 +467,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_201" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/jiutian-bigdata/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bigdata-zookeeper/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -490,29 +484,29 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flink-tutorial" />
       <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/resources" />
       <recent name="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java" />
       <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main" />
       <recent name="$PROJECT_DIR$/flink-tutorial-copy/User-Behavior-Analysis/two-streams-json/src/main" />
-      <recent name="$PROJECT_DIR$/flink-tutorial-copy/User-Behavior-Analysis/Order-Timeout-Detect/src/main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="org.jiutian.flink.streaming.examples" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="atguigu" />
       <recent name="xianchengchi" />
       <recent name="flink.java.cep" />
       <recent name="kafka.kafka08" />
       <recent name="com.dataflow.spark.spark.kafka" />
-      <recent name="com.dataflow.spark.spark.spark.streaming" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources" />
       <recent name="$PROJECT_DIR$/bigdata-zookeeper/src/main/java" />
       <recent name="$PROJECT_DIR$/jiutian-rpc" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/webSocket/kafka-websocket/src/main/java" />
-      <recent name="$PROJECT_DIR$/webSocket/kafka-web/src/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -527,13 +521,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HotItems">
-    <configuration name="AppClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zookeeper.HA.AppClient" />
-      <module name="bigdata-zookeeper" />
+  <component name="RunManager" selected="Application.SocketWindowWordCount">
+    <configuration name="AJoinBExerise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tong.AJoinBExerise" />
+      <module name="atgui-flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zookeeper.HA.*" />
+          <option name="PATTERN" value="tong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -541,12 +535,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zookeeper.HA.AppServer" />
-      <module name="bigdata-zookeeper" />
+    <configuration name="ExpiringState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExpiringState" />
+      <module name="atgui-flink" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RidesAndFares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RidesAndFares" />
+      <module name="atgui-flink" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.play.thread.tongxin.Run" />
+      <module name="jiutian-others" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zookeeper.HA.*" />
+          <option name="PATTERN" value="com.play.thread.tongxin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -554,41 +562,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributedClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zookeeper.HA.DistributedClient" />
-      <module name="bigdata-zookeeper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zookeeper.HA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotitmes.HotItems" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotitmes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lockZkB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zookeeper.HA.lockZkB" />
-      <module name="bigdata-zookeeper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zookeeper.HA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SocketWindowWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SocketWindowWordCount" />
+      <module name="atgui-flink" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -684,11 +660,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HotItems" />
-        <item itemvalue="Application.DistributedClient" />
-        <item itemvalue="Application.AppClient" />
-        <item itemvalue="Application.AppServer" />
-        <item itemvalue="Application.lockZkB" />
+        <item itemvalue="Application.SocketWindowWordCount" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.ExpiringState" />
+        <item itemvalue="Application.RidesAndFares" />
+        <item itemvalue="Application.AJoinBExerise" />
       </list>
     </recent_temporary>
   </component>
@@ -800,12 +776,15 @@
       <workItem from="1583111529157" duration="1131000" />
       <workItem from="1583890508351" duration="556000" />
       <workItem from="1584081951303" duration="6604000" />
-      <workItem from="1584583791893" duration="19938000" />
+      <workItem from="1584583791893" duration="21152000" />
+      <workItem from="1584958247200" duration="31409000" />
+      <workItem from="1585529809377" duration="1179000" />
+      <workItem from="1585558399369" duration="4202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323402000" />
+    <option name="totallyTimeSpent" value="361406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,10 +796,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="166" y="51" width="1920" height="1057" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2662407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1656017" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -828,26 +807,26 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31398964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.36683938" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35025907" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3130699" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.3626943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.044559587" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.33367875" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.26950353" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159746" side_tool="true" weight="0.47315097" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32928064" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.23809524" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3968912" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.39378238" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32826748" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Structure" order="1" weight="0.021489972" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24920128" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.20021299" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.20021299" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -1386,6 +1365,222 @@
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/code215/MergeSort.java</url>
           <line>22</line>
@@ -1418,15 +1613,92 @@
           </properties>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java</url>
+          <line>62</line>
+          <properties class="tong.AJoinBExerise.ABEnrichmentFunction" method="flatMap1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java</url>
+          <line>56</line>
+          <properties field="listState" class="atguigu.OperatorStateDemo.OperatorStateMap" />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="tuple2ValueState.value()" language="JAVA" />
+        <watch expression="tuple3ValueState.value()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>tuple3ValueState.value()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tuple2ValueState.value()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>itemState.get()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rideState.value()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>tuple2ValueState.value()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tuple2State.getTuple2()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tuple2ValueState</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>itemState.get()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rideState.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rideState.value()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>savedRide</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>rs.getString(&quot;belong_group&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -1437,217 +1709,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>rs.next()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mapper.toJson(metrics)</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>builder.build</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map.get(d)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map1.get(d)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar!/org/apache/zookeeper/CreateMode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/AppClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/AppServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/DistributedClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
-          <folding>
-            <element signature="e#3263#3601#0" expanded="true" />
-            <element signature="e#3600#3601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/DistributedClientMy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/Elector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/ElectorRobot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/lockZkA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/ZookeeperLockCopyB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/lockZkB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="85" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/src/main/java/zookeeper/HA/ZookeeperLockCopA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="148" column="40" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-maven/HiveMoudle/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-maven/SparkMoulde/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-maven/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial-copy/atguiguflink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial-copy/FlinkEcommerce/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial-copy/UserBehaviorAnalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial-copy/UserBehaviorAnalysis/twostreamsjoin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/src/main/resources/apachetest.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/src/main/scala/LoginFail.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1655,146 +1719,411 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/cep/CepEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/hadoop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/hbase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/ES/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/hive/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/src/main/java/demo/test/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/storm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flume/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2.jar!/org/apache/flink/api/java/typeutils/runtime/KryoRegistration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="381" column="18" selection-start-line="381" selection-start-column="18" selection-end-line="381" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-rpc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-rpc/sb-rpc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="215">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/functions/KeyedProcessFunction.class">
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/functions/source/SourceFunction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        <state relative-caret-position="255">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.class">
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/sources/CheckpointedTaxiRideSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="32" />
+        <state relative-caret-position="205">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
           <folding>
-            <element signature="e#4155#4156#0" expanded="true" />
-            <element signature="e#4186#4187#0" expanded="true" />
+            <element signature="e#2325#2326#0" expanded="true" />
+            <element signature="e#2362#2363#0" expanded="true" />
+            <element signature="e#4495#4496#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/test.java" />
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources/UserBehavior.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-2658">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/MarketStreamCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1506">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="188">
+          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
           <folding>
-            <element signature="e#3170#3474#0" expanded="true" />
-            <element signature="e#3473#3474#0" expanded="true" />
-            <element signature="e#4292#4293#0" expanded="true" />
-            <element signature="e#4350#4351#0" expanded="true" />
-            <element signature="e#4422#4423#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4679#4680#0" expanded="true" />
-            <element signature="e#4744#4745#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/readme.md">
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/lihao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="144" column="56" selection-start-line="144" selection-start-column="56" selection-end-line="144" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/Transfor.java" />
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/datatypes/TaxiFare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/utils/GeoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8280#8281#0" expanded="true" />
+            <element signature="e#8343#8344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/runtime/io/StreamTwoInputProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/operators/co/CoStreamFlatMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/functions/co/RichCoFlatMapFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="104" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/functions/co/CoFlatMapFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/tong/AJoinBExerise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3757#3758#0" expanded="true" />
+            <element signature="e#3794#3795#0" expanded="true" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4159#4160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/datatypes/TaxiRide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="e#5232#5233#0" expanded="true" />
+            <element signature="e#5271#5272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/技术点.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <first_editor relative-caret-position="343">
+            <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/datastream/SingleOutputStreamOperator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="159" column="29" selection-start-line="159" selection-start-column="29" selection-end-line="159" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/utils/ProjectBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ThreadRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ReadData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/ThreadWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/thread/tongxin/WriteData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CEPExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/CheckpointedLongRides.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/FirstExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/FlinkLoginFail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#1452#1729#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/HourlyTips.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/LongRides.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/LongRidesWithoutCep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/NearestTaxi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/hotitmes/HotItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="191" column="17" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
+          <folding>
+            <element signature="e#4212#4213#0" expanded="true" />
+            <element signature="e#4243#4244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/gun/SetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/NearestTaxiWithCleanup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/OngoingRides.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/PopularPlacesToES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/RideCleansing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/SocketWindowWordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/TaxiQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="155" column="21" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/ExpiringState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/RidesAndFares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/src/main/scala/ScalaHotItems.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/HotItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/flink-training-exercises-master/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-tutorial/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1873,7 +2202,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>flume-demo</last-edited>
+          <last-edited>atgui-flink</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

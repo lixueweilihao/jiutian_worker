@@ -43,7 +43,7 @@ public class CheckpointedLongRides extends ProjectBase {
         env.setParallelism(1);
         // set up checkpointing
         // 设置checkpoints文件的位置
-        env.setStateBackend(new FsStateBackend("file:///Users/yuanzuo/Desktop/checkpoints"));
+        env.setStateBackend(new FsStateBackend("file:///Users/lixuewei/Desktop/checkpoints"));
         env.enableCheckpointing(1000);
         env.setRestartStrategy(RestartStrategies.fixedDelayRestart(60, Time.of(10, TimeUnit.SECONDS)));
 
@@ -90,7 +90,8 @@ public class CheckpointedLongRides extends ProjectBase {
 
             // schedule the next timer 60 seconds from the current event time
             // 将下一个定时器的时间安排在当前ride的两个小时以后, 也就是两个小时以后调用onTimer
-            timerService.registerEventTimeTimer(ride.getEventTime() + 120 * 60 * 1000);
+//            timerService.registerEventTimeTimer(ride.getEventTime() + 120 * 60 * 1000);
+            timerService.registerEventTimeTimer(ride.getEventTime() + 10000);
         }
 
         // override定时器, 其实就是回调函数
