@@ -16,8 +16,8 @@ public class ScheduledTask {
         new ScheduledTask();
     }
     public void fixedPeriodSchedule() {
-        // 设定可以循环执行的runnable,初始延迟为0，这里设置的任务的间隔为1秒
-        for(int i=0;i<5;i++){
+        // 设定可以循环执行的runnable,初始延迟为0，这里设置的任务的间隔为4秒
+        for(int i=0;i<10;i++){
             se.scheduleAtFixedRate(new FixedSchedule(), 0, 4, TimeUnit.SECONDS);
         }
     }

@@ -18,10 +18,10 @@ public class ScheduledThreadPoolTest {
         try {
             //schedule to run after sometime
             System.out.println("Current Time = "+getNowDate());
-            for(int i=0; i<3; i++){
+            for(int i=0; i<10; i++){
                 Thread.sleep(1000);
                 WorkerThread worker = new WorkerThread();
-                //延迟5秒后执行
+                //延迟10秒后执行
                 scheduledThreadPool.schedule(worker, 10, TimeUnit.SECONDS);
             }
             Thread.sleep(3000);
