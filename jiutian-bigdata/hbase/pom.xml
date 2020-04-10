@@ -10,6 +10,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>hbase</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.phoenix</groupId>
+            <artifactId>phoenix-core</artifactId>
+            <version>4.14.0-HBase-1.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.phoenix/phoenix-client -->
+        <dependency>
+            <groupId>org.apache.phoenix</groupId>
+            <artifactId>phoenix-client</artifactId>
+            <version>4.14.1-HBase-1.4</version>
+        </dependency>
+
+
+    </dependencies>
 
 
 </project>

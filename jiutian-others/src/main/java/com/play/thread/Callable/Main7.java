@@ -18,7 +18,7 @@ class SumTotal implements Callable<Integer>{
         for (int i = 0; i < 50; i++) {
             if (i%20 == 0){
                 System.out.println("sleep");
-                Thread.sleep(100);
+                Thread.sleep(1000);
                 System.out.println(Thread.currentThread().getName()+"  " + i);
             }
             sum += i;
@@ -43,6 +43,8 @@ public class Main7 {
 
         try {
             int sum = futureTask.get();
+            boolean done = futureTask.isDone();
+            System.out.println(done);
             System.out.println(sum);
         } catch (InterruptedException e) {
             e.printStackTrace();

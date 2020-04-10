@@ -16,6 +16,7 @@ import java.util.concurrent.*;
 
 public class Test5 {
     private static Random random = new Random();
+
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         //数组大小
         int size = 50000;
@@ -35,9 +36,8 @@ public class Test5 {
         //子数组长度
         int length = 10000;
         //定义五个线程去计算
-        CountDownLatch cdl = new CountDownLatch(5);
-        ExecutorService executor = Executors.newFixedThreadPool(2);
-        Callable myCallable =null;
+        ExecutorService executor = Executors.newFixedThreadPool(5);
+        Callable myCallable = null;
         List<Future> list = new ArrayList<Future>();
         for (int i = 0; i < 5; i++) {
             //定义子数组
@@ -49,8 +49,8 @@ public class Test5 {
                 public Integer call() throws Exception {
                     for (int j = 0; j < subNumbers.length; j++) {
                         results[finalI] += subNumbers[j];
-
                     }
+                    Thread.sleep(10000);
                     return results[finalI];
                 }
 
@@ -58,10 +58,15 @@ public class Test5 {
             Future future = executor.submit(myCallable);
             list.add(future);
         }
+
         System.out.println("提交任务之前 " + getStringDate());
-int sum2 =0;
-        for(int i=0;i<list.size();i++){
-            sum2 +=  Integer.parseInt(list.get(i).get().toString());
+        int sum2 = 0;
+        for (int i = 0; i < list.size(); i++) {
+            boolean done = list.get(i).isDone();
+            if (!done){
+                System.out.println("------------------");
+            }
+            sum2 += Integer.parseInt(list.get(i).get().toString());
 
         }
         System.out.println(sum2);
