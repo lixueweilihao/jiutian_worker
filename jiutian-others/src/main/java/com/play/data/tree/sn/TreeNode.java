@@ -1,4 +1,4 @@
-package com.play.data.tree;
+package com.play.data.tree.sn;
 
 /**
  * Copyright @ 2018
@@ -6,12 +6,6 @@ package com.play.data.tree;
  *
  * @author Li Hao
  * @since 2019/2/27  22:19
- */
-/**
- * TreeNode: 普通的树节点
- * @author xuejupo  jpxue@travelsky.com
- * create in 2015-11-19 下午5:30:31
- *
  */
 public class TreeNode<T> {
     T value;

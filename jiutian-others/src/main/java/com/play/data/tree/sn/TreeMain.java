@@ -1,4 +1,4 @@
-package com.play.data.tree;
+package com.play.data.tree.sn;
 
 import java.util.ArrayList;
 import java.util.List;

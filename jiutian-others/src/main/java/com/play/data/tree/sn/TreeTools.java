@@ -1,4 +1,4 @@
-package com.play.data.tree;
+package com.play.data.tree.sn;
 
 /**
  * Copyright @ 2018
