@@ -32,7 +32,6 @@ public class SelectSort {
                     flag = j;
                 }
             }
-
             int tmp2 = a[i];//临时保存a[i]的值，用于交换值得位置
             a[i] = tmp;
             a[flag] = tmp2;
@@ -43,7 +42,7 @@ public class SelectSort {
      */
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        int[] test = {2,3,5,4,9,6,7};
+        int[] test = {3,2,5,4,9,6,7};
         selSort(test);
 
         for(int i=0; i<test.length; i++){

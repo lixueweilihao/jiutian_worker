@@ -2,3 +2,4 @@
 2. [排序算法之直接选择排序及Java实现](https://blog.csdn.net/xdzhouxin/article/details/80017538)
 3. [排序算法之直接插入排序及Java实现](https://blog.csdn.net/xdzhouxin/article/details/80024190)
 4. [图解排序算法(四)之归并排序](https://www.cnblogs.com/chengxiao/p/6194356.html)
+5. [搞懂基本排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd)

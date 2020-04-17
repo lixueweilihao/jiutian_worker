@@ -1,4 +1,4 @@
-package com.play.data.linked;
+package com.play.data.linked.dan;
 
 /**
  * Copyright @ 2018
@@ -31,4 +31,5 @@ public class Node {
     public Node(int data) {
         this.data = data;
     }
+    public boolean hasNext = true;
 }

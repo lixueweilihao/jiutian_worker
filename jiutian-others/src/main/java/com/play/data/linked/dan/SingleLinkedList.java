@@ -1,4 +1,4 @@
-package com.play.data.linked;
+package com.play.data.linked.dan;
 
 /**
  * Copyright @ 2018

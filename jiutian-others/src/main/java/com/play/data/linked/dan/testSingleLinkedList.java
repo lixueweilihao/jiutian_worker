@@ -1,4 +1,4 @@
-package com.play.data.linked;
+package com.play.data.linked.dan;
 
 /**
  * Created on 2019-06-13

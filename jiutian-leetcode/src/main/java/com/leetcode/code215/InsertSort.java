@@ -19,7 +19,7 @@ public class InsertSort{
     public static void insSort(int[] a){
         for(int i=0; i<a.length; i++){
             int tmp = a[i];
-            int j = 0;
+            int j=0;
             //将第i个值插入当前i-1中的合适位置
             for(j=i; j>0&&tmp<a[j-1]; j--){
                 //从后向前遍历，如果tmp值更小，说明它的位置需要更靠前

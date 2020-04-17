@@ -8,7 +8,7 @@ package com.leetcode.code215;
 public class QuickSort {
     public static void quickSort(int[] arr,int low,int high){
         int i,j,temp,t;
-        if(low>high){
+        if(low> high){
             return;
         }
         i=low;

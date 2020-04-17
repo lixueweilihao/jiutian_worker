@@ -9,7 +9,9 @@ import java.util.Arrays;
  */
 public class HeapSort {
     public static void main(String[] args) {
-        int[] array = new int[] { 2, 1, 4, 3, 6, 5, 8, 7 };
+//        int[] array = new int[] { 2, 1, 4, 3, 6, 5, 8, 7 };
+        int[] array = new int[] { 4, 6, 8, 5, 9 };
+
         // 接下来就是排序的主体逻辑
         sort(array);
         System.out.println(Arrays.toString(array));
