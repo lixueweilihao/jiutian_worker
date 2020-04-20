@@ -7,10 +7,7 @@ package com.play.data.queue;
  * @author Li Hao
  * @since 2019/2/27  20:14
  */
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 public class BlockingQueueTest {
     /**
@@ -19,6 +16,7 @@ public class BlockingQueueTest {
     public static class Basket{
         // 篮子，能够容纳3个苹果
         BlockingQueue<String> basket = new ArrayBlockingQueue<String>(3);
+        BlockingQueue<String> basket1  = new LinkedBlockingQueue();
 
         // 生产苹果，放入篮子
         public void produce() throws InterruptedException{

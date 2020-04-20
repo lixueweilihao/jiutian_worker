@@ -8,10 +8,12 @@ import com.sun.jersey.api.client.config.DefaultClientConfig;
 import com.sun.jersey.api.json.JSONConfiguration;
 
 import javax.ws.rs.core.MediaType;
+import java.util.HashSet;
 
 public class JerseyClient1 {
 
     public static void main(String[] args) {
+        HashSet<String> hs = new HashSet();
         ClientConfig cc = new DefaultClientConfig();
         //使用Jersey对POJO的支持，必须设置为true
         cc.getFeatures().put(JSONConfiguration.FEATURE_POJO_MAPPING, Boolean.TRUE);
