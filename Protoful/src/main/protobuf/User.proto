@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package kafka;
+option java_package = "com.lihao.protobuf";
+option java_outer_classname = "UserProto";
+
+message User{
+    required int64 id = 1;
+    required string name = 2;
+    optional string email = 3;
+    required int32 sex = 4;
+}
+

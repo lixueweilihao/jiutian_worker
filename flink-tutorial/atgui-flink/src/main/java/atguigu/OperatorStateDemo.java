@@ -41,9 +41,9 @@ public class OperatorStateDemo {
         final StreamExecutionEnvironment env=StreamExecutionEnvironment.getExecutionEnvironment();
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
-        DataStream<Long> input=env.fromElements(1L,2L,3L,4L,7L,5L,1L,5L,4L,6L,1L,7L,8L,9L,1L);
+        DataStream<Long> input=env.fromElements(1L,2L,3L,4L,7L,5L,1L,5L,4L,6L,1L,7L,8L,9L,1L).uid("test_1");
 
-        input.flatMap(new OperatorStateMap()).setParallelism(1).print();
+        input.flatMap(new OperatorStateMap()).setParallelism(1).uid("test_2").print();
 
         System.out.println(env.getExecutionPlan());
 

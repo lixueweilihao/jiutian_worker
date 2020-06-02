@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.beangle.commons:beangle-commons-core_2.13:5.1.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/software/repo/org/beangle/commons/beangle-commons-core_2.13/5.1.11/beangle-commons-core_2.13-5.1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/software/repo/org/beangle/commons/beangle-commons-core_2.13/5.1.11/beangle-commons-core_2.13-5.1.11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/software/repo/org/beangle/commons/beangle-commons-core_2.13/5.1.11/beangle-commons-core_2.13-5.1.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

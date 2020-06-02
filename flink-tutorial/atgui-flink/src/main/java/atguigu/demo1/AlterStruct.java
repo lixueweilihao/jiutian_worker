@@ -1,4 +1,4 @@
-package atguigu.demo;
+package atguigu.demo1;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

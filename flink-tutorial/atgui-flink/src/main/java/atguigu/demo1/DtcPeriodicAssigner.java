@@ -1,4 +1,4 @@
-package com.dtc.java.analytic.V1.snmp;
+package atguigu.demo1;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import javax.annotation.Nullable;
 import java.io.IOException;
 
-public class DtcPeriodicAssigner implements  AssignerWithPeriodicWatermarks<String> {
+public class DtcPeriodicAssigner implements AssignerWithPeriodicWatermarks<DataStruct> {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DtcPeriodicAssigner.class);
 
@@ -28,17 +28,9 @@ public class DtcPeriodicAssigner implements  AssignerWithPeriodicWatermarks<Stri
     }
 
     @Override
-    public long extractTimestamp(String s, long l) {
-        ObjectMapper objectMapper = new ObjectMapper();
-        JsonNode json = null;
-        try {
-            json = objectMapper.readTree(s);
-            String time = json.get("time").textValue();
-            long timestamp =  Long.parseLong(time);
-            return timestamp;
-        } catch (IOException e) {
-            LOGGER.warn("Data parse is mistake,and reasson is {}.", e);
-        }
-        return 0;
+    public long extractTimestamp(DataStruct s, long l) {
+        String time1 = s.getTime();
+        long timestamp = Long.parseLong(time1);
+        return timestamp;
     }
 }

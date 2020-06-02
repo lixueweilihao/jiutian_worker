@@ -53,7 +53,7 @@ public class javaUniqueSort {
         List<Integer> firstNum = new ArrayList<Integer>();
         List<Integer> secondNum = new ArrayList<Integer>();
 
-        for (int i = 0; i <= 100000; i=i+2) {
+        for (int i = 0; i <= 100000; i++) {
             firstNum.add(i);
             secondNum.add(i);
         }

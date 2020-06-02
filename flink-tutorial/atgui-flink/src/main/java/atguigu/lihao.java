@@ -32,7 +32,7 @@ public class lihao {
                 Tuple2.of(2L,4L),
                 Tuple2.of(3L,5L),
                 Tuple2.of(2L,3L),
-                Tuple2.of(1L,4L)
+                Tuple2.of(1L,10L)
         );
 
         input.keyBy(0)

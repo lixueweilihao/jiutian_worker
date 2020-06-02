@@ -39,7 +39,7 @@ public class javaDuplicateSort {
 
     public static List<Integer> uniqueSort(final List<Integer> uniqueList) {
         javaDuplicateSort.tempList.clear();
-        int[] temp = new int[200002];
+        int[] temp = new int[200001];
         for (int i = 0; i < temp.length; i++) {
             temp[i] = 0;
         }

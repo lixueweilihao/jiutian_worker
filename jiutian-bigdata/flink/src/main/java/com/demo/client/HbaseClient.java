@@ -43,7 +43,7 @@ public class HbaseClient {
     }
 
     /**
-     * 获取一列获取一行数据
+     * 获取一列获取一行数据最新数据
      * @param tableName
      * @param rowKey
      * @param famliyName

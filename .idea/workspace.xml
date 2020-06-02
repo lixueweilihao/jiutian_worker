@@ -10,38 +10,224 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04c713e1-78f4-4fe3-8361-a7939405eaa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/BlockingQueue/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Lock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Synchronized/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList/LinkedList 源码分析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList/Linkedlist_demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/Map/HashMap/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/Map/HashMap/read.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/BitGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort_copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaUniqueSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_3_0_alpha5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_3_0_alpha5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_11_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__edu_washington_cs_types_checker_checker_framework_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_membership_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_tcp_server_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beangle_cdi_beangle_cdi_api_2_13_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beangle_commons_beangle_commons_core_2_13_5_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beangle_serializer_beangle_serializer_protobuf_2_13_0_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_13_2_0_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufDeserializerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufSerializerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/Protobufable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protoful/src/main/protobuf/User.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/window/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kafka_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/kafka_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kafka_websocket_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/kafka_websocket_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0_rc1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0_rc1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0_rc1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_42_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_45_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_45_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_8_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_8_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_common_1_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_unsafe_1_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_core_1_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_core_1_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_logging_1_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_logging_1_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_management_1_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_management_1_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_serialization_1_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_serialization_1_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_unsafe_1_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geode_geode_common_1_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_2_10_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_2_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_shell_spring_shell_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_23_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_23_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_23_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_23_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_23_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_23_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Map/MyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/Map/HashMap/MyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Map/demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/List/ArrayList/Arraylist_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList/Arraylist_demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/List/ArrayList/搞懂 Java ArrayList 源码.md" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList/搞懂 Java ArrayList 源码.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/List/LinkedList/Linkedlist_demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/queue/BlockingQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/queue/BlockingQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/sean/JerseyClient1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/sean/JerseyClient1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/Map/MyMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/Map/MyMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/Map/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/linked/List/ArrayList/Arraylist_demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/linked/List/LinkedList/Linkedlist_demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/linked/shuang/DoublyLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/linked/shuang/DoublyLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/linked/shuang/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/linked/shuang/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/sean/JerseyClient1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/sean/JerseyClient1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protoful/Protoful.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Protoful/Protoful.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protoful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Protoful/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobEventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobEventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-zookeeper/bigdata-zookeeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-zookeeper/bigdata-zookeeper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/Flink-Ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/Flink-Ecommerce/Flink-Ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/Hot-Items-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Hot-Items-Analysis/Hot-Items-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/Login-Fail-Detect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Login-Fail-Detect/Login-Fail-Detect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/Network-Traffic-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Network-Traffic-Analysis/Network-Traffic-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/Order-Timeout-Detect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/Order-Timeout-Detect/Order-Timeout-Detect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/User-Behavior-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/User-Behavior-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/two-streams-json.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/User-Behavior-Analysis/two-streams-json/two-streams-json.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/atgui-flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/atgui-flink.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/AggregateFunctionMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/AggregateFunctionMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/ProductViewData.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/ProductViewData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/AlterStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/AlterStruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/DataStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/DataStruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/DtcPeriodicAssigner.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/DtcPeriodicAssigner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/ExecutionEnvUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/ExecutionEnvUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/KafkaConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/KafkaConfigUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/PropertiesConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/PropertiesConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/SourceEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/SourceEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/StreamToFlinkV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/StreamToFlinkV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/lihao.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/lihao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/atgui-flink/target/classes/apachetest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-tutorial/flink-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-tutorial/flink-tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_exec/java_exec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_exec/java_exec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-ai/jiutian-ai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/ES/ES.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/ES/ES.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flink/flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/flink.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/client/HbaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/client/HbaseClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/map/UserHistoryWithInterestMapFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/map/UserHistoryWithInterestMapFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/flume/flume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/flume/flume.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/hadoop/hadoop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hadoop/hadoop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/hbase/hbase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hbase/hbase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/hive/hive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/hive/hive.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/jiutian-bigdata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/kafka/kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/kafka/kafka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-bigdata/storm/storm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-bigdata/storm/storm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-leetcode/jiutian-leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-leetcode/jiutian-leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-netty/jiutian-netty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-netty/jiutian-netty.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Metrics/TestCounter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Metrics/TestCounter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Metrics/TestGauges.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Metrics/TestGauges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Metrics/TestMeters2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Metrics/TestMeters2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/Bloom.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/Bloom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/bloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/bloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/DuplicateTelephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/DuplicateTelephone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort_copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort_copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaUniqueSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaUniqueSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Invoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Invoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Main_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Main_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/PersonBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/PersonBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/UserBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/test/MyTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/test/MyTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/test/MyTargetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/test/MyTargetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/queue/BlockingQueueTest$1Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/queue/BlockingQueueTest$1Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/queue/BlockingQueueTest$1Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/queue/BlockingQueueTest$1Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/queue/BlockingQueueTest$Basket.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/queue/BlockingQueueTest$Basket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/queue/BlockingQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/queue/BlockingQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/位图法/javaDuplicateSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/位图法/javaDuplicateSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/位图法/javaDuplicateSort_copy.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/位图法/javaDuplicateSort_copy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/位图法/javaUniqueSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-others/target/classes/com/play/data/位图法/javaUniqueSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/api/api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/src/main/java/com/ibort/client/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/src/main/java/com/ibort/client/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/dist1/dist1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/dist1/dist1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/rpc-frame/rpc-frame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/rpc-frame/rpc-frame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/server/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/simple-rpc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-rpc/simple-rpc/simple-rpc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-webSocket/demo1/demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-webSocket/demo1/demo1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-webSocket/kafka-web/kafka-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-webSocket/kafka-web/kafka-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-webSocket/kafka-websocket/kafka-websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-webSocket/kafka-websocket/kafka-websocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian-webSocket/webSocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian-webSocket/webSocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiutian_worker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiutian_worker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/Spark/target/" />
@@ -146,10 +332,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList/Arraylist_demo.java">
+        <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/Protobufable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,128 +353,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList/Linkedlist_demo.java">
+        <entry file="file://$PROJECT_DIR$/Protoful/src/main/protobuf/User.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="418" column="29" selection-start-line="418" selection-start-column="29" selection-end-line="418" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#8008#8009#0" expanded="true" />
-                <element signature="e#8036#8037#0" expanded="true" />
-                <element signature="e#8248#8249#0" expanded="true" />
-                <element signature="e#8275#8276#0" expanded="true" />
-                <element signature="e#11209#11210#0" expanded="true" />
-                <element signature="e#11247#11248#0" expanded="true" />
-                <element signature="e#16099#16100#0" expanded="true" />
-                <element signature="e#16149#16150#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufSerializerProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jiutian-maven/dist/assembly/assembly.xml">
+        <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufDeserializerConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/queue/BlockingQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="433" column="13" selection-start-line="433" selection-start-column="13" selection-end-line="433" selection-end-column="13" />
+            <state relative-caret-position="435">
+              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
-                <element signature="e#7388#7389#0" expanded="true" />
-                <element signature="e#7427#7428#0" expanded="true" />
-                <element signature="e#9211#9212#0" expanded="true" />
-                <element signature="e#9245#9246#0" expanded="true" />
-                <element signature="e#9956#9957#0" expanded="true" />
-                <element signature="e#10001#10002#0" expanded="true" />
-                <element signature="e#23244#23245#0" expanded="true" />
-                <element signature="e#23296#23297#0" expanded="true" />
-                <element signature="e#25238#25239#0" expanded="true" />
-                <element signature="e#25270#25271#0" expanded="true" />
-                <element signature="e#32384#32385#0" expanded="true" />
-                <element signature="e#32434#32435#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList/LinkedList 源码分析.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="279" column="7" selection-start-line="279" selection-start-column="7" selection-end-line="279" selection-end-column="7" />
-              <folding>
-                <element signature="e#6283#6284#0" expanded="true" />
-                <element signature="e#6351#6352#0" expanded="true" />
-                <element signature="e#10361#10362#0" expanded="true" />
-                <element signature="e#10388#10389#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList/搞懂 Java ArrayList 源码.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/KafkaConsumerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="717" column="42" selection-start-line="717" selection-start-column="42" selection-end-line="717" selection-end-column="42" />
-              <folding>
-                <element signature="e#3820#3821#0" expanded="true" />
-                <element signature="e#3855#3856#0" expanded="true" />
-                <element signature="e#6812#6813#0" expanded="true" />
-                <element signature="e#6849#6850#0" expanded="true" />
-                <element signature="e#9697#9698#0" expanded="true" />
-                <element signature="e#9732#9733#0" expanded="true" />
-                <element signature="e#22895#22896#0" expanded="true" />
-                <element signature="e#22947#22948#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/MyProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -292,23 +432,13 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="Scala Object" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>4661,</find>
-      <find>4661,START</find>
-      <find>MapStateDescriptor</find>
-      <find>mapToGridCell</find>
-      <find>NYCEnrichment</find>
-      <find>startCell</find>
-      <find>GeoUtils.mapToGridCell</find>
-      <find>union</find>
-      <find>onTime</find>
-      <find>RichCoFlatMapFunction</find>
-      <find>onTimer</find>
       <find>EventBus</find>
       <find>lockInterrupti</find>
       <find>ScheduledThreadPoolExecutor</find>
@@ -316,7 +446,6 @@
       <find>ValueStateDescriptor</find>
       <find>Statue</find>
       <find>ListStatue</find>
-      <find>ListState</find>
       <find>registerEventTimeTimer</find>
       <find>hbase</find>
       <find>table</find>
@@ -328,6 +457,18 @@
       <find>BlockingQueue</find>
       <find>contains</find>
       <find>AtomicInteger</find>
+      <find>MetricRegistry</find>
+      <find>RestServer</find>
+      <find>test</find>
+      <find>test:</find>
+      <find>ListState</find>
+      <find>AggregateFunction</find>
+      <find>FilterFunction</find>
+      <find>reflect</find>
+      <find>aggregate</find>
+      <find>Job Transitioned</find>
+      <find>u_interest</find>
+      <find>prod</find>
     </findStrings>
     <replaceStrings>
       <replace>Node</replace>
@@ -338,6 +479,7 @@
       <dir>$PROJECT_DIR$/jiutian-bigdata</dir>
       <dir>$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Lock/lockInterruptibly</dir>
       <dir>$PROJECT_DIR$/flink-tutorial/atgui-flink/src</dir>
+      <dir>$PROJECT_DIR$/.idea</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -346,57 +488,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/code215/HeapSort.java" />
-        <option value="$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/code215/QuickSort.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/dan/testSingleLinkedList.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/shuang/Node.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/shuang/MyList.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/shuang/manage.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/shuang/Students.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/readme.md" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/mianshiti/ListNode.java" />
-        <option value="$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/code215/readme.md" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/mianshiti/Main.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/demo/Node.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/demo/StuLinkedList.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/demo/CH03_02.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/dan/Node.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/dan/DemoTest.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/shuang/dmeo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/ArrayList/dmeo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/ArrayList/搞懂 Java ArrayList 源码.md" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/List/ArrayList/dmeo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/List/ArrayList/Arraylist_dmeo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/List/ArrayList/Arraylist_demo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/shuang/Test.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/shuang/DoublyLinkList.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/List/LinkedList/readme.md" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/List/LinkedList/Linkedlist_demo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList/Linkedlist_demo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/Map/HashMap/demo.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/Map/HashMap/read.md" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Semaphore/MyThread.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Semaphore/SemaphoreTest.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Semaphore/SemaphoreService.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Semaphore/SemaphoreService2.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Semaphore/Main.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Semaphore/SemaphoreTest1.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreTest1.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Lock/Test.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/readme.md" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Synchronized/Test.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/MyThread1.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/MyThread.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/BlockingQueue/test.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreTest.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/sean/JerseyClient1.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/javaUniqueSort.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/BitGraph.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Metrics/TestCounter1.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Metrics/TestMeters2.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/CustomTrigger.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/ProductViewData.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources/newData.txt" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo/MyMapFunctionV3.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo/StreamToFlinkV3.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo/SourceEvent.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo/PropertiesConstants.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo/ExecutionEnvUtil.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo/test.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/AlterStruct.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources/kafka-flink_test.properties" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/DtcPeriodicAssigner.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/AggregateFunctionMain2.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/User.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/UserBean.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Invoke.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/test/MyTarget.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/PersonBean.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/test/MyTargetTest.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Main.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/reflect/Main_1.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/KafkaConfigUtil.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo1/StreamToFlinkV3.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/OperatorStateDemo.java" />
+        <option value="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/lihao.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink/pom.xml" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/task/TopProductTask.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/map/UserHistoryWithInterestMapFunction.java" />
         <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaUniqueSort.java" />
         <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort.java" />
         <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort_copy.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/queue/BlockingQueueTest.java" />
-        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList/搞懂 Java ArrayList 源码.md" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/bloomFilter.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/Bloom.java" />
+        <option value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/DuplicateTelephone.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jiutian-rpc/simple-rpc/client/src/main/java/com/ibort/client/main/Main.java" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobEventType.java" />
+        <option value="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/client/HbaseClient.java" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/protobuf/User.proto" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/Protobufable.java" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/User.java" />
+        <option value="$PROJECT_DIR$/Protoful/pom.xml" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufSerializer.java" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufSerializerProducer.java" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/SimpleMRAppMasterTest.java" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobStateMachine.java" />
+        <option value="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufDeserializerConsumer.java" />
       </list>
     </option>
   </component>
@@ -433,11 +575,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="simple-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="simple-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -445,10 +587,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1920" />
-    <option name="y" value="180" />
+    <option name="x" value="833" />
+    <option name="y" value="351" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -456,7 +598,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -468,75 +609,60 @@
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="jiutian-bigdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Protoful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
+              <item name="Protoful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Protoful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Protoful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Protoful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="code220" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Protoful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="code242" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-maven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-maven" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jiutian_worker" type="462c0819:PsiDirectoryNode" />
-              <item name="jiutian-maven" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="Protoful" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
@@ -545,16 +671,34 @@
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-common:2.7.3" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-common:2.7.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-common-2.7.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-common:2.7.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-common-2.7.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="yarn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jiutian_worker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-common:2.7.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-common-2.7.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="yarn" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -574,11 +718,11 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_201" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/jiutian-bigdata/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
@@ -595,25 +739,25 @@
       <recent name="org.jiutian.flink.streaming.examples" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList" />
-      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList" />
-      <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/dan" />
-      <recent name="$PROJECT_DIR$/bigdata-zookeeper/src/main/java/CyclicBarrier" />
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/resources" />
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo" />
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java" />
+      <recent name="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo" />
       <recent name="$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="atguigu.demo1" />
+      <recent name="atguigu.demo" />
       <recent name="com.play.data.位图法" />
       <recent name="com.play.data.linked.List.LinkedList" />
       <recent name="com.play.data.tree.dtc.红黑树" />
-      <recent name="CountDownLatch" />
-      <recent name="atguigu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf" />
+      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/java/com/demo/window" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/ArrayList" />
       <recent name="$PROJECT_DIR$/bigdata-zookeeper/src/main/java" />
-      <recent name="$PROJECT_DIR$/flink-tutorial" />
-      <recent name="$PROJECT_DIR$/jiutian-bigdata/flink/src/main/resources" />
-      <recent name="$PROJECT_DIR$/jiutian-bigdata/hive/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -628,13 +772,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.javaDuplicateSort_copy">
-    <configuration name="BitGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.play.data.位图法.BitGraph" />
-      <module name="jiutian-others" />
+  <component name="RunManager" selected="Application.ProtobufDeserializerConsumer">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yarn.rpc.test2.Client" />
+      <module name="Protoful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.play.data.位图法.*" />
+          <option name="PATTERN" value="yarn.rpc.test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -642,12 +786,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.play.Producer_Consumer.Synchronized.Test" />
-      <module name="jiutian-others" />
+    <configuration name="ProtobufDeserializerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lihao.protobuf.kafka.ProtobufDeserializerConsumer" />
+      <module name="Protoful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.play.Producer_Consumer.Synchronized.*" />
+          <option name="PATTERN" value="com.lihao.protobuf.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -655,12 +799,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaDuplicateSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.play.data.位图法.javaDuplicateSort" />
-      <module name="jiutian-others" />
+    <configuration name="ProtobufSerializerProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lihao.protobuf.kafka.ProtobufSerializerProducer" />
+      <module name="Protoful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.play.data.位图法.*" />
+          <option name="PATTERN" value="com.lihao.protobuf.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -668,12 +812,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaDuplicateSort_copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.play.data.位图法.javaDuplicateSort_copy" />
-      <module name="jiutian-others" />
+    <configuration name="SimpleMRAppMasterTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yarn.stateMachine.SimpleMRAppMasterTest" />
+      <module name="Protoful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.play.data.位图法.*" />
+          <option name="PATTERN" value="yarn.stateMachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -681,12 +825,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaUniqueSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.play.data.位图法.javaUniqueSort" />
-      <module name="jiutian-others" />
+    <configuration name="SimpleMRAppMasterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yarn.EventStore.SimpleMRAppMasterTest" />
+      <module name="Protoful" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.play.data.位图法.*" />
+          <option name="PATTERN" value="yarn.EventStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -785,11 +929,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.javaDuplicateSort_copy" />
-        <item itemvalue="Application.javaDuplicateSort" />
-        <item itemvalue="Application.BitGraph" />
-        <item itemvalue="Application.javaUniqueSort" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ProtobufDeserializerConsumer" />
+        <item itemvalue="Application.ProtobufSerializerProducer" />
+        <item itemvalue="Application.SimpleMRAppMasterTest (1)" />
+        <item itemvalue="Application.SimpleMRAppMasterTest" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +1057,27 @@
       <workItem from="1586862595271" duration="23000" />
       <workItem from="1586936951497" duration="20662000" />
       <workItem from="1587092808629" duration="6105000" />
-      <workItem from="1587119589751" duration="40904000" />
+      <workItem from="1587119589751" duration="40931000" />
+      <workItem from="1587440995203" duration="3647000" />
+      <workItem from="1587539413561" duration="15018000" />
+      <workItem from="1587890149451" duration="1553000" />
+      <workItem from="1587985310713" duration="2984000" />
+      <workItem from="1588002166733" duration="1000" />
+      <workItem from="1588173942566" duration="4011000" />
+      <workItem from="1588207899887" duration="33822000" />
+      <workItem from="1589250796556" duration="5688000" />
+      <workItem from="1589333818873" duration="2716000" />
+      <workItem from="1589853760866" duration="2740000" />
+      <workItem from="1589858359162" duration="2396000" />
+      <workItem from="1589971134065" duration="11386000" />
+      <workItem from="1590370926271" duration="256000" />
+      <workItem from="1590494060483" duration="2397000" />
+      <workItem from="1590592799605" duration="3046000" />
+      <workItem from="1590633638715" duration="14000" />
+      <workItem from="1590650640838" duration="4993000" />
+      <workItem from="1590733180204" duration="891000" />
+      <workItem from="1590987802303" duration="2141000" />
+      <workItem from="1591078012617" duration="1843000" />
     </task>
     <servers />
   </component>
@@ -926,7 +1090,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="488180000" />
+    <option name="totallyTimeSpent" value="589750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -938,10 +1102,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="180" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2428115" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -950,25 +1113,25 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31205675" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.18959108" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5401274" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.51295334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3088083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.22038217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.24974093" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159746" side_tool="true" weight="0.47315097" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32928064" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.23809524" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.4579534" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.25595856" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32826748" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Structure" order="1" visible="true" weight="0.18025751" />
+      <window_info anchor="right" id="Structure" order="1" weight="0.26890308" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24920128" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.20021299" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.10436635" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -1623,31 +1786,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
-          <line>137</line>
+          <line>136</line>
           <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
-          <line>125</line>
+          <line>124</line>
           <properties />
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
-          <line>157</line>
+          <line>156</line>
           <properties />
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
-          <line>142</line>
+          <line>141</line>
           <properties />
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/HotItems.java</url>
-          <line>151</line>
+          <line>150</line>
           <properties />
           <option name="timeStamp" value="141" />
         </line-breakpoint>
@@ -1903,6 +2066,54 @@
           <properties />
           <option name="timeStamp" value="222" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flink-tutorial/atgui-flink/src/main/java/atguigu/demo.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/Bloom.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/Bloom.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/Bloom_Filter/Bloom.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobStateMachine.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobStateMachine.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobStateMachine.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobStateMachine.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/MyProducer.java</url>
           <line>44</line>
@@ -1997,6 +2208,36 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>getInternalState()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>record[h2/32]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>record[h1/32]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>record[h1/32]|=(1&lt;&lt;(h1%32));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>1&lt;&lt;(h1%32)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>h1/32</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>max / 32</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -2011,551 +2252,365 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>calculateCapacity(elementData, minCapacity)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tmp</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>current.data</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>List.first</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>temp.getNext()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>array[k]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jiutian-leetcode/src/main/java/com/leetcode/RegexTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/flink/src/main/resources/pic/基于物品的协同过滤公式.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Map/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/zookeeper/ZookeeperLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="156" column="23" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="618" column="15" selection-start-line="618" selection-start-column="15" selection-end-line="618" selection-end-column="15" />
-          <folding>
-            <element signature="e#24977#24978#0" expanded="true" />
-            <element signature="e#25017#25018#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreService2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="1122" column="35" selection-start-line="1122" selection-start-column="35" selection-end-line="1122" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/MyThread1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/demo/CH03_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/demo/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/demo/StuLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/BlockingQueue/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="283" column="16" selection-start-line="283" selection-start-column="16" selection-end-line="283" selection-end-column="16" />
-          <folding>
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Semaphore/SemaphoreTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Lock/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/Producer_Consumer/Synchronized/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/sean/JerseyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/sean/JerseyClient1.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/protobuf/msg.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/BitGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaUniqueSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#275#284#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1356#1365#0" expanded="true" />
-            <element signature="e#1416#1425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="166" column="17" lean-forward="true" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-          <folding>
-            <element signature="e#3740#3741#0" expanded="true" />
-            <element signature="e#3777#3778#0" expanded="true" />
-            <element signature="e#4865#4866#0" expanded="true" />
-            <element signature="e#4929#4930#0" expanded="true" />
-            <element signature="e#5324#5325#0" expanded="true" />
-            <element signature="e#5376#5377#0" expanded="true" />
-            <element signature="e#6484#6485#0" expanded="true" />
-            <element signature="e#6530#6531#0" expanded="true" />
-            <element signature="e#6715#6716#0" expanded="true" />
-            <element signature="e#6748#6749#0" expanded="true" />
-            <element signature="e#6928#6929#0" expanded="true" />
-            <element signature="e#6964#6965#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-            <element signature="e#7468#7469#0" expanded="true" />
-            <element signature="e#8064#8065#0" expanded="true" />
-            <element signature="e#8112#8113#0" expanded="true" />
-            <element signature="e#8762#8763#0" expanded="true" />
-            <element signature="e#8807#8808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#234#243#0" expanded="true" />
-            <element signature="e#472#481#0" expanded="true" />
-            <element signature="e#532#541#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/位图法/javaDuplicateSort_copy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/Map/HashMap/read.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/Map/HashMap/MyMap.java">
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="376">
+          <caret line="248" selection-start-line="248" selection-end-line="257" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/Map/HashMap/demo.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/io/serializer/Serializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/time/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="258" column="27" selection-start-line="258" selection-start-column="27" selection-end-line="258" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/kafka/kafka-clients/0.8.2.2/kafka-clients-0.8.2.2.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="174" column="46" selection-start-line="174" selection-start-column="46" selection-end-line="174" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/EventStore/TaskEventType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/EventStore/TaskEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/EventStore/JobEventType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="526" column="5" lean-forward="true" selection-start-line="526" selection-start-column="5" selection-end-line="526" selection-end-column="5" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#21108#21109#0" expanded="true" />
-            <element signature="e#21135#21136#0" expanded="true" />
-            <element signature="e#24331#24332#0" expanded="true" />
-            <element signature="e#24396#24397#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/EventStore/JobEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/AbstractService/Agent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/shuang/DoublyLinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="179" column="6" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#4869#4870#0" expanded="true" />
-            <element signature="e#4913#4914#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
-          <folding>
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
-            <element signature="e#4239#4240#0" expanded="true" />
-            <element signature="e#4304#4305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/io/ObjectInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="550" column="16" selection-start-line="550" selection-start-column="16" selection-end-line="550" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="433" column="13" selection-start-line="433" selection-start-column="13" selection-end-line="433" selection-end-column="13" />
-          <folding>
-            <element signature="e#7388#7389#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-            <element signature="e#9211#9212#0" expanded="true" />
-            <element signature="e#9245#9246#0" expanded="true" />
-            <element signature="e#9956#9957#0" expanded="true" />
-            <element signature="e#10001#10002#0" expanded="true" />
-            <element signature="e#23244#23245#0" expanded="true" />
-            <element signature="e#23296#23297#0" expanded="true" />
-            <element signature="e#25238#25239#0" expanded="true" />
-            <element signature="e#25270#25271#0" expanded="true" />
-            <element signature="e#32384#32385#0" expanded="true" />
-            <element signature="e#32434#32435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/queue/BlockingQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/AbstractService/AgentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/EventStore/SimpleMRAppMasterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="717" column="42" selection-start-line="717" selection-start-column="42" selection-end-line="717" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/EventStore/SimpleMRAppMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobEventType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/hadoop/hadoop-yarn-common/2.7.3/hadoop-yarn-common-2.7.3.jar!/org/apache/hadoop/yarn/event/EventHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/hadoop/hadoop-yarn-common/2.7.3/hadoop-yarn-common-2.7.3.jar!/org/apache/hadoop/yarn/state/StateMachineFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/SimpleMRAppMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/service/CompositeService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/hadoop/hadoop-yarn-common/2.7.3/hadoop-yarn-common-2.7.3.jar!/org/apache/hadoop/yarn/event/Dispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/SimpleMRAppMasterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/repo/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/service/AbstractService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/yarn/stateMachine/JobStateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/protobuf/com/lihao/protobuf/PersonProtos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#3820#3821#0" expanded="true" />
-            <element signature="e#3855#3856#0" expanded="true" />
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#9697#9698#0" expanded="true" />
-            <element signature="e#9732#9733#0" expanded="true" />
-            <element signature="e#22895#22896#0" expanded="true" />
-            <element signature="e#22947#22948#0" expanded="true" />
+            <element signature="e#0#69854#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList/搞懂 Java ArrayList 源码1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/protobuf/com/lihao/protobuf/AddressBookProtos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#101952#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList/搞懂 Java ArrayList 源码.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/one/JavaKafkaSimpleConsumerAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/ArrayList/Arraylist_demo.java">
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/one/JavaKafkaSimpleConsumerAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/one/KafkaBrokerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/one/KafkaTopicPartitionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/KafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/KafkaSimpleConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/KafkaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/simple/Consumer/two/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka_test/ConuserT.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka10/ConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka10/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/CidPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/KafkaConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiutian-bigdata/kafka/src/main/java/kafka/kafka08/MyProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/Protobufable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/UserProto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="382" column="52" selection-start-line="382" selection-start-column="52" selection-end-line="382" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufSerializerProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="279" column="7" selection-start-line="279" selection-start-column="7" selection-end-line="279" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-            <element signature="e#10361#10362#0" expanded="true" />
-            <element signature="e#10388#10389#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList/LinkedList 源码分析1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList/LinkedList 源码分析.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-others/src/main/java/com/play/data/linked/Collection/List/LinkedList/Linkedlist_demo.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/protobuf/User.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="418" column="29" selection-start-line="418" selection-start-column="29" selection-end-line="418" selection-end-column="29" />
+        <state relative-caret-position="217">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
-            <element signature="e#8008#8009#0" expanded="true" />
-            <element signature="e#8036#8037#0" expanded="true" />
-            <element signature="e#8248#8249#0" expanded="true" />
-            <element signature="e#8275#8276#0" expanded="true" />
-            <element signature="e#11209#11210#0" expanded="true" />
-            <element signature="e#11247#11248#0" expanded="true" />
-            <element signature="e#16099#16100#0" expanded="true" />
-            <element signature="e#16149#16150#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiutian-maven/dist/assembly/assembly.xml">
+    <entry file="file://$PROJECT_DIR$/Protoful/src/main/java/com/lihao/protobuf/kafka/ProtobufDeserializerConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        <state relative-caret-position="435">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2581,6 +2636,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -2599,7 +2655,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2639,7 +2695,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

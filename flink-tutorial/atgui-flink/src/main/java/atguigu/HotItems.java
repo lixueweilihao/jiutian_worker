@@ -65,7 +65,6 @@ public class HotItems {
 		// 创建 PojoCsvInputFormat
 		PojoCsvInputFormat<UserBehavior> csvInput = new PojoCsvInputFormat<>(filePath, pojoType, fieldOrder);
 
-
 		env
 			// 创建数据源，得到 UserBehavior 类型的 DataStream
 			.createInput(csvInput, pojoType)

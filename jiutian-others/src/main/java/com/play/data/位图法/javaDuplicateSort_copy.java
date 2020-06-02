@@ -43,15 +43,12 @@ public class javaDuplicateSort_copy {
 
     public static List<Integer> uniqueSort(final List<Integer> uniqueList) {
         javaDuplicateSort_copy.tempList.clear();
-        int[] temp = new int[200002];
+        int[] temp = new int[200001];
         for (int i = 0; i < temp.length; i++) {
             temp[i] = 0;
         }
         for (int i = 0; i < uniqueList.size(); i++) {
             temp[uniqueList.get(i)]++;
-            if(temp[i]>1){
-                temp[i]=1;
-            }
         }
         for (int i = 0; i < uniqueList.size(); i++) {
             if(temp[i]>1){

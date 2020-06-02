@@ -40,11 +40,12 @@ public class UserHistoryWithInterestMapFunction extends RichMapFunction<LogEntit
         if (actionLastTime == null) {
             actionLastTime = actionThisTime;
             saveToHBase(logEntity, 1);
+            state.update(actionThisTime);
         }else{
             times = getTimesByRule(actionLastTime, actionThisTime);
+            state.update(actionThisTime);
+            saveToHBase(logEntity, times);
         }
-        saveToHBase(logEntity, times);
-
         // 如果用户的操作为3(购物),则清除这个key的state
         if (actionThisTime.getType().equals("3")){
             state.clear();
@@ -61,7 +62,7 @@ public class UserHistoryWithInterestMapFunction extends RichMapFunction<LogEntit
         int t2 = Integer.parseInt(actionThisTime.getTime());
         int pluse = 1;
         // 如果动作连续发生且时间很短(小于100秒内完成动作), 则标注为用户对此产品兴趣度很高
-        if (a2 > a1 && (t2 - t1) < 100_000L){
+        if (a2 == a1+1 && (t2 - t1) < 100_000L){
             pluse *= a2 - a1;
         }
         return pluse;
