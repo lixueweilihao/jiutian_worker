@@ -19,7 +19,8 @@ public class Client {
         InetSocketAddress addr = new InetSocketAddress("localhost", 9000) ;
         MyProtocol proxy = RPC.getProxy(MyProtocol.class, MyProtocol.versionID, addr,
                 new Configuration()) ;
-        proxy.echo() ;
+
+        System.out.println(proxy.echo());
     }
 
     public static void main(String[] args) throws IOException {

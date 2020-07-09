@@ -21,7 +21,6 @@ import java.util.Map;
  */
 public class WriteIntoKafka {
     public static void main(String[] args) throws Exception {
-        // create execution environment
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         Map properties = new HashMap();

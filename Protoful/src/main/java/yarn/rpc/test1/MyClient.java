@@ -17,7 +17,7 @@ public class MyClient {
         try {
             Configuration conf = new Configuration();
             HelloWorldService proxy = RPC.getProxy(HelloWorldService.class, HelloWorldService.versionID, new InetSocketAddress("localhost",8888), conf);
-            String result = proxy.sayHello("world");
+            String result = proxy.sayHello("lihao-world");
             System.out.println(result);
         } catch (Exception e) {
             e.printStackTrace();
